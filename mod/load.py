@@ -14,7 +14,7 @@ class Loader:
             p = os.path.join(root, path)
             if os.path.isfile(p):
                 return True
-        return false
+        return False
 
     # loads Json of the given path
     def loadJson(self, path):
