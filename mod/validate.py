@@ -24,15 +24,17 @@ Checks for missing files.
 def validate_mod_files(mod_dir):
     loader = load.Loader(paths.find_media_dir())
 
-    file_map = _walk_json(loader, 'pa/units/unit_list.json')
-
+    file_map = _walk_json(loader, '/pa/units/unit_list.json')
     for file, refs in file_map.items():
         if not loader.hasFile(file):
             print (file, " not found, referenced by: ", list(refs))
 
 
-
-    pass
+    loader.mount('/pa', '/pa_ex1')
+    file_map = _walk_json(loader, '/pa/units/unit_list.json')
+    for file, refs in file_map.items():
+        if not loader.hasFile(file):
+            print (file, " not found, referenced by: ", list(refs))
 
 def _parse_spec(spec_path):
     ret = set()
