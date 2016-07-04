@@ -1,6 +1,15 @@
 import json
 import os.path
 
+
+def _strip_leading_slashes(path):
+    while path and len(path) > 0 and path[0] == '/':
+        path = path[1:]
+    return path
+
+def _join_paths(path1, path2):
+    return os.path.join(path1, _strip_leading_slashes(path2))
+
 class Loader:
     def __init__(self, rootPath):
         self.mounts = [('/', rootPath)]
@@ -22,9 +31,7 @@ class Loader:
             file_path = path + ''
             for mount_point, mount_path in mounts:
                 if file_path.startswith(mount_point):
-                    file_path = mount_path + '/' + file_path[len(mount_point):]
-                    file_path.replace("\\","/")
-                    file_path.replace("//","/")
+                    file_path = _join_paths(mount_path, file_path[len(mount_point):])
 
             if os.path.isfile(file_path):
                 return True
@@ -40,9 +47,7 @@ class Loader:
             file_path = path + ''
             for mount_point, mount_path in mounts:
                 if file_path.startswith(mount_point):
-                    file_path = mount_path + '/' + file_path[len(mount_point):]
-                    file_path.replace("\\","/")
-                    file_path.replace("//","/")
+                    file_path = _join_paths(mount_path, file_path[len(mount_point):])
 
             attempted_paths.append(file_path)
             if os.path.isfile(file_path):
