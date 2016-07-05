@@ -1,5 +1,5 @@
 import json
-import os.path
+from os.path import join, isfile
 
 
 def _strip_leading_slashes(path):
@@ -8,7 +8,7 @@ def _strip_leading_slashes(path):
     return path
 
 def _join_paths(path1, path2):
-    return os.path.join(path1, _strip_leading_slashes(path2))
+    return join(path1, _strip_leading_slashes(path2))
 
 class Loader:
     def __init__(self, rootPath):
@@ -23,20 +23,26 @@ class Loader:
                 self.mounts.remove((mnt, path))
                 return
 
-    # returns True if any of the roots has that file
-    def hasFile(self, path):
+    def resolveFile(self, path):
         for i in range(len(self.mounts)):
             mounts = self.mounts[-i:]
 
-            file_path = path + ''
+            file_path = path
             for mount_point, mount_path in mounts:
                 if file_path.startswith(mount_point):
                     file_path = _join_paths(mount_path, file_path[len(mount_point):])
+                # if we are mounting the root, we should not propogate further
+                if mount_point == '/':
+                    break
 
-            if os.path.isfile(file_path):
-                return True
+            if isfile(file_path):
+                return file_path
 
-        return False
+        return None
+
+    # returns True if any of the roots has that file
+    def hasFile(self, path):
+        return self.resolveFile(path) != None
 
     # loads Json of the given path
     def loadJson(self, path):
@@ -50,7 +56,7 @@ class Loader:
                     file_path = _join_paths(mount_path, file_path[len(mount_point):])
 
             attempted_paths.append(file_path)
-            if os.path.isfile(file_path):
+            if isfile(file_path):
                 with open(file_path, 'r') as file:
                     return json.load(file)
 
