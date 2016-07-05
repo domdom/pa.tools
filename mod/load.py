@@ -1,5 +1,5 @@
 import json
-from os.path import join, isfile
+from os.path import join, isfile, normpath
 
 
 def _strip_leading_slashes(path):
@@ -7,7 +7,7 @@ def _strip_leading_slashes(path):
         path = path[1:]
     return path
 
-def _join_paths(path1, path2):
+def _join(path1, path2):
     return join(path1, _strip_leading_slashes(path2))
 
 class Loader:
@@ -30,13 +30,13 @@ class Loader:
             file_path = path
             for mount_point, mount_path in mounts:
                 if file_path.startswith(mount_point):
-                    file_path = _join_paths(mount_path, file_path[len(mount_point):])
+                    file_path = _join(mount_path, file_path[len(mount_point):])
                 # if we are mounting the root, we should not propogate further
                 if mount_point == '/':
                     break
 
             if isfile(file_path):
-                return file_path
+                return normpath(file_path)
 
         return None
 
@@ -45,20 +45,10 @@ class Loader:
         return self.resolveFile(path) != None
 
     # loads Json of the given path
-    def loadJson(self, path):
-        attempted_paths = []
-        for i in range(len(self.mounts)):
-            mounts = self.mounts[-i:]
+    def loadJson(self, file_path):
+        if isfile(file_path):
+            with open(file_path, 'r') as file:
+                return json.load(file)
 
-            file_path = path + ''
-            for mount_point, mount_path in mounts:
-                if file_path.startswith(mount_point):
-                    file_path = _join_paths(mount_path, file_path[len(mount_point):])
-
-            attempted_paths.append(file_path)
-            if isfile(file_path):
-                with open(file_path, 'r') as file:
-                    return json.load(file)
-
-        raise FileNotFoundError('Could not find the file ' + path + ' relative to any roots. (' + json.dumps(attempted_paths) + ')')
+        raise FileNotFoundError('Could not find the file ' + file_path + ' relative to any roots.')
 
