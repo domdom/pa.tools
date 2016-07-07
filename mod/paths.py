@@ -41,8 +41,8 @@ def find_media_dir():
         raise FileNotFoundError('Could not find the log directory.')
 
     log_files = glob.glob(os.path.join(log_dir,'*.txt'))
+    log_files = reversed(sorted(log_files))
     log_files = map(lambda x: os.path.join(log_dir, x), log_files)
-    log_files = sorted(log_files, key=os.path.getctime)
 
     for log_file in log_files:
         with open(log_file) as log:
@@ -53,10 +53,17 @@ def find_media_dir():
 
                     if not os.path.isdir(base_path): raise FileNotFoundError('Could not find PA directory.')
 
+                    # Windows, Linux
                     path = os.path.normpath(os.path.join(base_path, '../../media'))
                     if os.path.isdir(path):
                         return path
 
+                    # macOS (Stand-alone app)
+                    path = os.path.normpath(os.path.join(base_path, '../../Resources/media'))
+                    if os.path.isdir(path):
+                        return path
+
+                    # macOs (Steam version)
                     path = os.path.normpath(os.path.join(base_path, '../../../../media'))
                     if os.path.isdir(path):
                         return path
