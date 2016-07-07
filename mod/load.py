@@ -48,7 +48,11 @@ class Loader:
     def loadJson(self, file_path):
         if isfile(file_path):
             with open(file_path, 'r') as file:
-                return json.load(file)
+                try:
+                    return json.load(file)
+                except json.JSONDecodeError:
+                    print('Could not load json file:', file_path)
+                    raise
 
         raise FileNotFoundError('Could not find the file ' + file_path + ' relative to any roots.')
 

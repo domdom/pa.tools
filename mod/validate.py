@@ -1,5 +1,5 @@
-import paths
-import load
+from . import paths
+from . import load
 
 
 def validate_modinfo(modinfo):
@@ -16,10 +16,9 @@ def validate_mod_files(mod_dir):
     loader.mount('/pa', '/pa_ex1')
     loader.mount('/', mod_dir)
 
-    file_map = _find_missing_files(loader)
-    for file, refs in file_map.items():
-        if not loader.hasFile(file):
-            print(file, "not found, referenced by:", list(refs))
+    return _find_missing_files(loader)
+
+    # return file_map
 
     # file_map = _walk_json(loader, '/pa/units/unit_list.json')
     # for file, refs in file_map.items():
@@ -56,12 +55,16 @@ def _walk_json(loader, visited, missing, file_path, referenced_by):
     if not file_path.endswith('.json') and not file_path.endswith('.pfx'):
         return
 
-    obj = loader.loadJson(resolved_file)
+    # TODO: This is a hack
+    try:
+        obj = loader.loadJson(resolved_file)
+    except:
+        return
 
     file_list = _walk_obj(obj)
     for file in file_list:
         if file not in visited:
-            _walk_json(loader, visited, missing, file, file_path)
+            _walk_json(loader, visited, missing, file, resolved_file)
 
 
 def _parse_spec(spec_path):
