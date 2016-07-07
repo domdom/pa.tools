@@ -9,7 +9,7 @@ import glob
 """
 Finds and returns the location of PA's user data folder
 """
-def find_data_dir():
+def _find_data_dir():
     HOME = os.getenv('USERPROFILE')
     if HOME is None:
         HOME = os.getenv('HOME')
@@ -33,7 +33,7 @@ def find_data_dir():
 """
 Reads PA's logs to find the last used PA media directory.
 """
-def find_media_dir():
+def _find_media_dir():
     data_dir = find_data_dir()
     log_dir = os.path.join(data_dir, 'log')
 
@@ -70,6 +70,8 @@ def find_media_dir():
 
                     raise FileNotFoundError('Could not find PA media directory. You must play the game at least once for this directory to be detected.')
 
+PA_DATA_DIR = _find_data_dir()
+PA_MEDIA_DIR = _find_media_dir()
 
 
 

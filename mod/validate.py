@@ -1,6 +1,27 @@
 from . import paths
 from . import load
 
+class ModIssues:
+
+    def __init__(self):
+        self.missing = {}
+        self.parseErrors = {}
+
+    def missingFile(self, missingFile, refercingFile):
+        if missingFile in self.missing:
+            self.missing[missingFile].add(refercingFile)
+        else:
+            self.missing[missingFile] = {refercingFile}
+
+    def invalidJson(self, jsonFile, parsingErrors):
+        if jsonFile in self.parseErrors:
+            self.parseErrors[jsonFile].add(parsingErrors)
+        else:
+            self.parseErrors[jsonFile] = {parsingErrors}
+
+
+
+
 
 def validate_modinfo(modinfo):
     """
@@ -17,13 +38,6 @@ def validate_mod_files(mod_dir):
     loader.mount('/', mod_dir)
 
     return _find_missing_files(loader)
-
-    # return file_map
-
-    # file_map = _walk_json(loader, '/pa/units/unit_list.json')
-    # for file, refs in file_map.items():
-    #     if not loader.hasFile(file):
-    #         print (file, " not found, referenced by: ", list(refs))
 
 
 def _update_missing(missing, file, referenced_by):
