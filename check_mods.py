@@ -82,17 +82,17 @@ def _validate_mods(api_mods):
             if len(file_map) > 0:
                 print(mod['display_name'], file=mod_issue_file)
                 print('=' * len(mod['display_name']), file=mod_issue_file)
-                print('missing files:', len(file_map), file=mod_issue_file)
-                print('  json errors:', len(json_map), file=mod_issue_file)
-                print('MISSING FILES ' + str(len(file_map)) + ' ', file=mod_issue_file)
-                print('=' * len('MISSING FILES ' + str(len(file_map)) + ' '), file=mod_issue_file)
+                print('missing files:', modIssues.getMissingFileCount(), file=mod_issue_file)
+                print('  json errors:', modIssues.getJsonErrorCount(), file=mod_issue_file)
+                print('MISSING FILES ' + str(modIssues.getMissingFileCount()) + ' ', file=mod_issue_file)
+                print('=' * len('MISSING FILES ' + str(modIssues.getMissingFileCount()) + ' '), file=mod_issue_file)
                 for file, refs in file_map.items():
                     print (file, '   not found, referenced by:', file=mod_issue_file)
                     for ref in refs:
                         print('      - ', ref, file=mod_issue_file)
             if len(json_map) > 0:
-                print('JSON ERRORS ' + str(len(json_map)) + ' ', file=mod_issue_file)
-                print('=' * len('JSON ERRORS ' + str(len(json_map)) + ' '), file=mod_issue_file)
+                print('JSON ERRORS ' + str(modIssues.getJsonErrorCount()) + ' ', file=mod_issue_file)
+                print('=' * len('JSON ERRORS ' + str(modIssues.getJsonErrorCount()) + ' '), file=mod_issue_file)
                 for file, errors in json_map.items():
                     for error in errors:
                         print(error, file=mod_issue_file)
