@@ -4,14 +4,14 @@ missing files: 4
   json errors: 2
 MISSING FILES 4 
 ================
-/pa/units/land/base_unit/base_unit.json    not found, referenced by:
-      -  tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/unit_list.json
+/pa/units/land/assault_bot/assault_bot_squisher_ammo.json    not found, referenced by:
+      -  tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/land/assault_bot_adv/assault_bot_squisher_tool_weapon.json
 /pa/units/land/artillery_Xlong/artillery_Xlong.json    not found, referenced by:
+      -  tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/unit_list.json
+/pa/units/land/base_unit/base_unit.json    not found, referenced by:
       -  tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/unit_list.json
 /pa/units/land/artillery_long/artillery_long_anim_aimUp.papa    not found, referenced by:
       -  tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/land/artillery_long/artillery_long.json
-/pa/units/land/assault_bot/assault_bot_squisher_ammo.json    not found, referenced by:
-      -  tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/land/assault_bot_adv/assault_bot_squisher_tool_weapon.json
 JSON ERRORS 2 
 ==============
 tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/land/bot_factory/bot_factory.json:226:1 error: expected 'EOF' but got '}' instead
