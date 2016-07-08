@@ -1,3 +1,11 @@
+Bigger Explosions
+=================
+missing files: 0
+  json errors: 1
+
+MISSING FILES 0 
+================
+
 JSON ERRORS 1 
 ==============
 tmp/mods/com.pa.client.mirolog.boom/com.pa.client.mirolog.boom/pa/effects/specs/default_explosion_bot_t2.pfx:680:2 error: expected 'EOF' but got '{' instead

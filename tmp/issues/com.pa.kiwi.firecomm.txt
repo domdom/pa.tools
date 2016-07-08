@@ -1,3 +1,11 @@
+Flaming Commander
+=================
+missing files: 0
+  json errors: 1
+
+MISSING FILES 0 
+================
+
 JSON ERRORS 1 
 ==============
 tmp/mods/com.pa.kiwi.firecomm/Flaming-Commander-master/com.pa.kiwi.firecomm/pa/units/commanders/tank_base/tank_base.json:73:2 error: expected 'EOF' but got '{' instead

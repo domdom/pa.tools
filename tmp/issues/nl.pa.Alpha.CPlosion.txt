@@ -1,3 +1,11 @@
+CPlosion Titans
+===============
+missing files: 0
+  json errors: 2
+
+MISSING FILES 0 
+================
+
 JSON ERRORS 2 
 ==============
 tmp/mods/nl.pa.Alpha.CPlosion/CPlosion-32e1bcab744769172b959f2859ef88812f858dc0/mod/default_explosion_bot.pfx:763:3 warning: ill-formed number
