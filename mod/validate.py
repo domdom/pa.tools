@@ -20,6 +20,12 @@ class ModIssues:
         else:
             self.parseErrors[jsonFile] = set(parsingErrors)
 
+    def getJsonErrorCount(self):
+        return sum([len(x) for x in self.parseErrors.values()])
+    def getMissingFileCount(self):
+        return len(self.missing)
+
+
 
 def validate_modinfo(modinfo):
     """
