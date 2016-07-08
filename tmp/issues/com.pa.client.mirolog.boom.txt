@@ -1,0 +1,10 @@
+JSON ERRORS 1 
+==============
+tmp/mods/com.pa.client.mirolog.boom/com.pa.client.mirolog.boom/pa/effects/specs/default_explosion_bot_t2.pfx:680:2 error: expected 'EOF' but got '{' instead
+ 677|            "endDistance": 3000
+ 678|        }
+ 679|    ]
+ 680|}{
+    | ^ expected 'EOF' but got '{' instead
+ 681|    "emitters": [
+

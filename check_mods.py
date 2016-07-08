@@ -73,7 +73,7 @@ def _validate_mods(api_mods):
         json_map = modIssues.parseErrors
 
         # skip if there are no issues
-        if len(file_map) == 0 and len(file_map) == 0:
+        if len(file_map) == 0 and len(json_map) == 0:
             continue
 
         mod_issue_path = os.path.join(temp_issue_dir, mod_id + '.txt')
