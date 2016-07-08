@@ -1,0 +1,8 @@
+Battleship
+==========
+missing files: 1
+  json errors: 0
+MISSING FILES 1 
+================
+/pa/units/sea/missile_ship_aa_ammo.json    not found, referenced by:
+      -  tmp/mods/com.elodea.battleship.minimod/com.pa.elodea.battleship.minimod/pa/units/air/fighter_adv/fighter_adv_ciws_tool_weapon.json

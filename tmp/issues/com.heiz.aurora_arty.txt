@@ -1,0 +1,8 @@
+Aurora-Artillery
+================
+missing files: 1
+  json errors: 0
+MISSING FILES 1 
+================
+/pa/effects/specs/default_commander_explosion_air_ent.pfx    not found, referenced by:
+      -  tmp/mods/com.heiz.aurora_arty/com.heiz.aurora_arty1.1-2.1/pa/units/orbital/orbital_armageddon/orbital_armageddon_ammo.json

@@ -1,0 +1,8 @@
+PA:C | More Pew Pew
+===================
+missing files: 1
+  json errors: 0
+MISSING FILES 1 
+================
+/mod/slammer/slammer_muzzle_flash.json    not found, referenced by:
+      -  tmp/mods/com.pac.domdom.laser_unit_effects/com.pac.domdom.laser_unit_effects-1.1.3/pa/units/land/assault_bot_adv/assault_bot_adv.json

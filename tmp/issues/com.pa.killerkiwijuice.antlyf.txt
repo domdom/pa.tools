@@ -1,0 +1,20 @@
+Ant4Lyf Mod
+===========
+missing files: 2
+  json errors: 1
+MISSING FILES 2 
+================
+/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa    not found, referenced by:
+      -  tmp/mods/com.pa.killerkiwijuice.antlyf/Ant4Lyf-Mod-master/com.pa.killerkiwijuice.antlyf/pa/units/land/artillery_long/artillery_long.json
+/pa/units/land/base_unit/base_unit.json    not found, referenced by:
+      -  tmp/mods/com.pa.killerkiwijuice.antlyf/Ant4Lyf-Mod-master/com.pa.killerkiwijuice.antlyf/pa/units/unit_list.json
+JSON ERRORS 1 
+==============
+tmp/mods/com.pa.killerkiwijuice.antlyf/Ant4Lyf-Mod-master/com.pa.killerkiwijuice.antlyf/pa/effects/specs/CPlosion.pfx:140:12 warning: ill-formed number
+ 137|		"velocity": 0.1,
+ 138|		"rotationRange": 1.14,
+ 139|		"sizeX": 1.6,
+ 140|		"sizeY": 1.,
+    |		         ^~ ill-formed number
+ 141|		"lifetime": 3.0,
+

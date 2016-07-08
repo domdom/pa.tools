@@ -6,7 +6,8 @@ from mod.validate import validate_mod_files
 from urllib.request import urlopen
 import json
 
-temp_dir = './tmp-mods'
+temp_mod_dir = './tmp/mods'
+temp_issue_dir = './tmp/issues'
 url = "https://pamm-mereth.rhcloud.com/api/mod"
 api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
 
@@ -19,7 +20,7 @@ def _download_mods(api_mods):
     from urllib.request import urlopen
     from zipfile import ZipFile
 
-    if not os.path.exists(temp_dir): os.makedirs(temp_dir)
+    if not os.path.exists(temp_mod_dir): os.makedirs(temp_mod_dir)
 
 
     for i, mod in enumerate(api_mods):
@@ -28,7 +29,7 @@ def _download_mods(api_mods):
 
         print (i, '/', len(api_mods), '-', mod_id)
 
-        mod_path = os.path.join(temp_dir, mod_id)
+        mod_path = os.path.join(temp_mod_dir, mod_id)
 
         #############
         try:
@@ -44,53 +45,61 @@ def _download_mods(api_mods):
             continue
 
 def _validate_mods(api_mods):
-    issues = {}
-    import glob
+    if not os.path.exists(temp_issue_dir): os.makedirs(temp_issue_dir)
+
     print('================== VALIDATING MODS')
     for i, mod in enumerate(api_mods):
         mod_id = mod['identifier']
 
         print(i, '/', len(api_mods), '-', mod_id, end='')
 
-        mod_path = os.path.join(temp_dir, mod_id)
+        mod_path = os.path.join(temp_mod_dir, mod_id)
+
+        import glob
         glob_result = glob.glob(os.path.join(mod_path, '**','modinfo.json'), recursive=True)
 
         if len(glob_result) == 0:
-            print(' - FAIL: Could not find modinfo for', mod_id)
+            print(' - FAIL: Could not find modinfo for')
             continue
 
         modinfo_path = glob_result[0]
         mod_path = os.path.dirname(modinfo_path)
 
-        issues[mod_id] = validate_mod_files(mod_path)
-        print (' - [', len(issues[mod_id].missing), '/', len(issues[mod_id].parseErrors), ']')
-    print('------------------ DONE')
-    return issues
+        modIssues = validate_mod_files(mod_path)
 
+        print (' - [', len(modIssues.missing) + len(modIssues.parseErrors), ']')
 
-def _print_summary(issues):
-    print('================== ISSUE SUMMARY')
-    for mod_id, modIssues in issues.items():
         file_map = modIssues.missing
         json_map = modIssues.parseErrors
+
+        # skip if there are no issues
         if len(file_map) == 0 and len(file_map) == 0:
             continue
-        print('=====', mod_id , '=====[', len(file_map) + len(json_map), ']')
-        print('-- FILES')
-        if len(file_map) > 0:
-            for file, refs in file_map.items():
-                print (file, 'not found, referenced by:')
-                for ref in refs:
-                    print('    ', ref)
 
-        print('-- JSON ERRORS')
-        if len(json_map) > 0:
-            for file, errors in json_map.items():
-                for error in errors:
-                    print(error)
+        mod_issue_path = os.path.join(temp_issue_dir, mod_id + '.txt')
+
+        with open(mod_issue_path, 'w') as mod_issue_file:
+            if len(file_map) > 0:
+                print(mod['display_name'], file=mod_issue_file)
+                print('=' * len(mod['display_name']), file=mod_issue_file)
+                print('missing files:', len(file_map), file=mod_issue_file)
+                print('  json errors:', len(json_map), file=mod_issue_file)
+                print('MISSING FILES ' + str(len(file_map)) + ' ', file=mod_issue_file)
+                print('=' * len('MISSING FILES ' + str(len(file_map)) + ' '), file=mod_issue_file)
+                for file, refs in file_map.items():
+                    print (file, '   not found, referenced by:', file=mod_issue_file)
+                    for ref in refs:
+                        print('      - ', ref, file=mod_issue_file)
+            if len(json_map) > 0:
+                print('JSON ERRORS ' + str(len(json_map)) + ' ', file=mod_issue_file)
+                print('=' * len('JSON ERRORS ' + str(len(json_map)) + ' '), file=mod_issue_file)
+                for file, errors in json_map.items():
+                    for error in errors:
+                        print(error, file=mod_issue_file)
+
+    print('------------------ DONE')
+
 
 _download_mods(api_mods)
-issues = _validate_mods(api_mods)
-_print_summary(issues)
-
+_validate_mods(api_mods)
 
