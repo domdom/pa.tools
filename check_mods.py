@@ -39,7 +39,7 @@ def _download_mods(api_mods):
                         zfile.extractall(mod_path)
             else:
                 print ('Skipping download of', mod_id, ':', mod_url)
-        except Error as e:
+        except:
             print('Failed to download', mod_id)
             continue
 
@@ -89,6 +89,7 @@ def _print_summary(issues):
                 for error in errors:
                     print(error)
 
+_download_mods(api_mods)
 issues = _validate_mods(api_mods)
 _print_summary(issues)
 

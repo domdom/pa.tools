@@ -2,7 +2,6 @@ from . import paths
 from . import load
 from . import pajson
 
-from json import JSONDecodeError
 
 class ModIssues:
     def __init__(self):
@@ -20,9 +19,6 @@ class ModIssues:
             self.parseErrors[jsonFile].add(parsingErrors)
         else:
             self.parseErrors[jsonFile] = set(parsingErrors)
-
-
-
 
 
 def validate_modinfo(modinfo):
@@ -79,7 +75,7 @@ def _parse_spec(spec_path):
     ret = set()
     specs = spec_path.split(' ')
     for spec in specs:
-        if '/' in spec and '.' in spec:
+        if '/' in spec and '.' in spec and spec.find('/') < spec.find('.'):
             ret.add(spec)
 
     return ret
