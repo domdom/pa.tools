@@ -1,4 +1,6 @@
 import json
+from . import pajson
+
 from os.path import join, isfile, normpath
 
 
@@ -49,10 +51,10 @@ class Loader:
         if isfile(file_path):
             with open(file_path, 'r') as file:
                 try:
-                    return json.load(file)
+                    return json.load(file), []
                 except json.JSONDecodeError:
-                    print('Could not load json file:', file_path)
-                    raise
+                    file.seek(0)
+                    return pajson.load(file)
 
         raise FileNotFoundError('Could not find the file ' + file_path + ' relative to any roots.')
 

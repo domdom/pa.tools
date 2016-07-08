@@ -1,8 +1,10 @@
 from . import paths
 from . import load
+from . import pajson
+
+from json import JSONDecodeError
 
 class ModIssues:
-
     def __init__(self):
         self.missing = {}
         self.parseErrors = {}
@@ -17,7 +19,7 @@ class ModIssues:
         if jsonFile in self.parseErrors:
             self.parseErrors[jsonFile].add(parsingErrors)
         else:
-            self.parseErrors[jsonFile] = {parsingErrors}
+            self.parseErrors[jsonFile] = set(parsingErrors)
 
 
 
@@ -33,52 +35,44 @@ def validate_modinfo(modinfo):
 
 def validate_mod_files(mod_dir):
     """ Checks for missing files. """
-    loader = load.Loader(paths.find_media_dir())
+    loader = load.Loader(paths.PA_MEDIA_DIR)
     loader.mount('/pa', '/pa_ex1')
     loader.mount('/', mod_dir)
 
     return _find_missing_files(loader)
 
 
-def _update_missing(missing, file, referenced_by):
-    if file in missing:
-        missing[file].add(referenced_by)
-    else:
-        missing[file] = {referenced_by}
-    return missing
-
-
 def _find_missing_files(loader):
     visited = set()
-    missing = dict()
+    modIssues = ModIssues()
     file_path = '/pa/units/unit_list.json'
     referenced_by = 'PA Engine'
 
-    _walk_json(loader, visited, missing, file_path, referenced_by)
+    _walk_json(loader, visited, modIssues, file_path, referenced_by)
 
-    return missing
+    return modIssues
 
 
-def _walk_json(loader, visited, missing, file_path, referenced_by):
+def _walk_json(loader, visited, modIssues, file_path, referenced_by):
     visited.add(file_path)
 
     resolved_file = loader.resolveFile(file_path)
     if resolved_file is None:
-        _update_missing(missing, file_path, referenced_by)
+        modIssues.missingFile(file_path, referenced_by)
         return
     if not file_path.endswith('.json') and not file_path.endswith('.pfx'):
         return
 
     # TODO: This is a hack
-    try:
-        obj = loader.loadJson(resolved_file)
-    except:
-        return
+    obj, warnings = loader.loadJson(resolved_file)
+
+    if len(warnings) > 0:
+        modIssues.invalidJson(resolved_file, warnings)
 
     file_list = _walk_obj(obj)
     for file in file_list:
         if file not in visited:
-            _walk_json(loader, visited, missing, file, resolved_file)
+            _walk_json(loader, visited, modIssues, file, resolved_file)
 
 
 def _parse_spec(spec_path):

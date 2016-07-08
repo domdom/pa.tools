@@ -34,7 +34,7 @@ def _find_data_dir():
 Reads PA's logs to find the last used PA media directory.
 """
 def _find_media_dir():
-    data_dir = find_data_dir()
+    data_dir = _find_data_dir()
     log_dir = os.path.join(data_dir, 'log')
 
     if not os.path.isdir(log_dir):
