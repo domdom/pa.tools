@@ -1,1182 +1,842 @@
-================== VALIDATING MODS
-0 / 374 - ClassicWater
-1 / 374 - Com_in_a_box_map_pack
-2 / 374 - Community_Map_Pack
-3 / 374 - DrBoggles
-4 / 374 - GrandPrixMapPack
-5 / 374 - Guma_Guma_Slide_Map_Pack
-6 / 374 - MysticalFists.GW.Cheats
-7 / 374 - MysticalFists.GWT2.Cheats
-8 / 374 - RainbowRacersMapPack
-9 / 374 - bSelectedUnitSecondary
-10 / 374 - ca.nixtempestas.hdrmod
-11 / 374 - ca.nixtempestas.hdrmodnb
-12 / 374 - ca.pa.metapod.colonel_combat_grouping_mod
-13 / 374 - ca.pa.metapod.heavy_air_group_deselect
-14 / 374 - ca.pa.metapod.remix_map_pack
-15 / 374 - com.DeathByDenim.pa.mines_as_strips
-16 / 374 - com.aevns.acliffplanets
-17 / 374 - com.exodusesports.tournamentmappack
-18 / 374 - com.heiz.aurora_artyUI
-19 / 374 - com.nixtempestas.deepspace
-20 / 374 - com.pa-db.awesomeSystemGenerator
-21 / 374 - com.pa.DeathByDenim.MouseFix
-22 / 374 - com.pa.DeathByDenim.dFavouriteColour
-23 / 374 - com.pa.DeathByDenim.dNotes
-24 / 374 - com.pa.DeathByDenim.ui_enhancements
-25 / 374 - com.pa.LavaSnake.StargateBugFix
-26 / 374 - com.pa.PAkimberlee.Kimberlee_map_pack
-27 / 374 - com.pa.Rancor.client.cliffplanets
-28 / 374 - com.pa.alpha2546.naval_projectiles
-29 / 374 - com.pa.antlyf.ui
-30 / 374 - com.pa.burntcustard.bAnchorButtonsbAnchorButtons
-31 / 374 - com.pa.burntcustard.bRemoveAlertPIPs
-32 / 374 - com.pa.carn1x.4k-gui-scale
-33 / 374 - com.pa.chat
-34 / 374 - com.pa.client.mirolog.boom
-Could not load json file: tmp-mods\com.pa.client.mirolog.boom\com.pa.client.mirolog.boom\pa\effects\specs\default_explosion_bot_t2.pfx
-35 / 374 - com.pa.colacolin.Modbatch
-36 / 374 - com.pa.coldboot.smallpause
-37 / 374 - com.pa.coldboot.superselect
-38 / 374 - com.pa.conundrum.cClassicMusic
-39 / 374 - com.pa.conundrum.cExodus
-40 / 374 - com.pa.conundrum.cGenesisDevice
-41 / 374 - com.pa.conundrum.cMaps_battleship
-42 / 374 - com.pa.conundrum.cMaps_genesis
-43 / 374 - com.pa.conundrum.cMaps_loc_arena
-44 / 374 - com.pa.conundrum.cMaps_p12
-45 / 374 - com.pa.conundrum.cShareSystems
-46 / 374 - com.pa.danzel.dBetterSystemView
-47 / 374 - com.pa.domdom.color_chat
-48 / 374 - com.pa.domdom.darker_skybox
-49 / 374 - com.pa.domdom.fab_spray_green
-50 / 374 - com.pa.domdom.fog_of_war_line_cyan
-51 / 374 - com.pa.domdom.fog_of_war_line_white
-52 / 374 - com.pa.domdom.heart.metal_icon.default
-53 / 374 - com.pa.domdom.heart.metal_icon.pink
-54 / 374 - com.pa.domdom.heart.metal_icon.turquoise
-55 / 374 - com.pa.domdom.heart.ping
-56 / 374 - com.pa.domdom.inferno.blue_flame
-57 / 374 - com.pa.domdom.laser_unit_effects
-58 / 374 - com.pa.domdom.nuke_ping
-59 / 374 - com.pa.domdom.nukes.merica
-60 / 374 - com.pa.domdom.pop_dox
-61 / 374 - com.pa.domdom.rainbow.heart.nuke
-62 / 374 - com.pa.domdom.rainbow.landing
-63 / 374 - com.pa.domdom.rainbow_circle_selection
-64 / 374 - com.pa.domdom.rainbow_flower_selection
-65 / 374 - com.pa.domdom.robo_disco
-66 / 374 - com.pa.domdom.silent_space_explosions
-67 / 374 - com.pa.domdom.strategic_projectiles
-68 / 374 - com.pa.domdom.tele_landing
-69 / 374 - com.pa.doxlyf.ui
-70 / 374 - com.pa.easybox.mappack
-71 / 374 - com.pa.elodea.hellokitty.commicon
-72 / 374 - com.pa.elodea.maps_supercommander
-73 / 374 - com.pa.elodea.racinghelmet.commicon
-74 / 374 - com.pa.elodea.rainbow.artillery
-75 / 374 - com.pa.elodea.unlocked.editor
-76 / 374 - com.pa.gtc.gw_extended_system_moves
-77 / 374 - com.pa.guest.DirectEdit
-78 / 374 - com.pa.ishytarus.gabefaceicon
-79 / 374 - com.pa.kiwi.airtrails
-80 / 374 - com.pa.kiwi.battleship_fix
-81 / 374 - com.pa.kiwi.bestffapack
-82 / 374 - com.pa.kiwi.cleancontrolbar
-83 / 374 - com.pa.kiwi.comscathisicon
-84 / 374 - com.pa.kiwi.comtrollicon
-85 / 374 - com.pa.kiwi.firecomm
-Could not load json file: tmp-mods\com.pa.kiwi.firecomm\Flaming-Commander-master\com.pa.kiwi.firecomm\pa\units\commanders\tank_base\tank_base.json
-86 / 374 - com.pa.kiwi.solarflare
-87 / 374 - com.pa.kiwi.teamairtrails
-88 / 374 - com.pa.lyrid.BrighterIcons
-89 / 374 - com.pa.lyrid.SentientReplays
-90 / 374 - com.pa.metapod).metapodmappack
-91 / 374 - com.pa.metapod.metapodmappack
-92 / 374 - com.pa.mikeyh.gAutoName
-93 / 374 - com.pa.mikeyh.gAutoStartGame
-94 / 374 - com.pa.mikeyh.gBackspaceFix
-95 / 374 - com.pa.mikeyh.gFasterServerBrowser
-96 / 374 - com.pa.mikeyh.gGameInvites.client
-97 / 374 - com.pa.mikeyh.gLobbySystemPreview.client
-98 / 374 - com.pa.mikeyh.gOptimiseUserTagMap
-+++ Could not find modinfo for com.pa.mikeyh.gOptimiseUserTagMap
-99 / 374 - com.pa.mikeyh.gReadyUp.client
-100 / 374 - com.pa.mikeyh.gSecondPip
-101 / 374 - com.pa.mikeyh.gSpectatorCasterMode
-102 / 374 - com.pa.mikeyh.gStripMining
-103 / 374 - com.pa.mikeyh.gSystemEditorFixes
-104 / 374 - com.pa.mods.client.ClassicColors
-105 / 374 - com.pa.moldez.transicons
-106 / 374 - com.pa.n30n.UITweaks
-107 / 374 - com.pa.n30n.bettererSystemView
-108 / 374 - com.pa.n30n.cheese_commander
-109 / 374 - com.pa.n30n.continuousBuildStance
-110 / 374 - com.pa.n30n.dontLookAtMe
-111 / 374 - com.pa.n30n.expandedHotkeys
-112 / 374 - com.pa.n30n.fabricatorCommander
-113 / 374 - com.pa.n30n.noSlash
-114 / 374 - com.pa.owo.icons
-115 / 374 - com.pa.proeleert.hotbuild2
-116 / 374 - com.pa.quitch.qQuellerAIPersonalities
-117 / 374 - com.pa.raevn.pamm.rchronoclick
-118 / 374 - com.pa.raevn.pamm.rsettingsmanager
-119 / 374 - com.pa.raevn.rblueprintinfoframework
-120 / 374 - com.pa.raevn.rcommanderhp
-121 / 374 - com.pa.raevn.rfloatframe
-122 / 374 - com.pa.raevn.rmodslist
-123 / 374 - com.pa.raevn.runitdatabase
-124 / 374 - com.pa.rcix.teamBuildColor
-125 / 374 - com.pa.samzlx.cheesyicons
-126 / 374 - com.pa.samzlx.kappacommander
-127 / 374 - com.pa.shalkka.sTeamNotes
-128 / 374 - com.pa.someonewhoisnobody.inGameBrowser
-129 / 374 - com.pa.sootn.stuffoverview
-130 / 374 - com.pa.startege1_map_pack
-131 / 374 - com.pa.stuart98.ableprogenitor
-132 / 374 - com.pa.stuart98.alphaenergy
-133 / 374 - com.pa.stuart98.comiconhotfix
-134 / 374 - com.pa.stuart98.jungletropical
-135 / 374 - com.pa.stuart98.metalbackground
-136 / 374 - com.pa.superouman.CustomSkybox
-137 / 374 - com.pa.superouman.superouman_map_pack
-138 / 374 - com.pa.tatsu.FAFicons
-139 / 374 - com.pa.tesseracta.client.maps
-140 / 374 - com.pa.trialq.eco_manager
-141 / 374 - com.pa.trialq.tAllianceBot
-142 / 374 - com.pa.trialq.tAutoFactory
-143 / 374 - com.pa.trialq.tBuildBarWrap
-144 / 374 - com.pa.trialq.tInfiniteBuild
-145 / 374 - com.pa.trialq.tinfinitebuild
-146 / 374 - com.pa.uber.client.commandertextures2048.imperial_able
-147 / 374 - com.pa.uber.client.commandertextures2048.imperial_aceal
-148 / 374 - com.pa.uber.client.commandertextures2048.imperial_alpha
-149 / 374 - com.pa.uber.client.commandertextures2048.imperial_aryst0krat
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_aryst0krat
-150 / 374 - com.pa.uber.client.commandertextures2048.imperial_chronoblip
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_chronoblip
-151 / 374 - com.pa.uber.client.commandertextures2048.imperial_delta
-152 / 374 - com.pa.uber.client.commandertextures2048.imperial_enzomatrix
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_enzomatrix
-153 / 374 - com.pa.uber.client.commandertextures2048.imperial_fiveleafclover
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_fiveleafclover
-154 / 374 - com.pa.uber.client.commandertextures2048.imperial_gamma
-155 / 374 - com.pa.uber.client.commandertextures2048.imperial_gnugfur
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_gnugfur
-156 / 374 - com.pa.uber.client.commandertextures2048.imperial_invictus
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_invictus
-157 / 374 - com.pa.uber.client.commandertextures2048.imperial_kapowaz
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_kapowaz
-158 / 374 - com.pa.uber.client.commandertextures2048.imperial_progenitor
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_progenitor
-159 / 374 - com.pa.uber.client.commandertextures2048.imperial_sangudo
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_sangudo
-160 / 374 - com.pa.uber.client.commandertextures2048.imperial_seniorhelix
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_seniorhelix
-161 / 374 - com.pa.uber.client.commandertextures2048.imperial_thechessknight
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.imperial_thechessknight
-162 / 374 - com.pa.uber.client.commandertextures2048.imperial_theta
-163 / 374 - com.pa.uber.client.commandertextures2048.quad_ajax
-164 / 374 - com.pa.uber.client.commandertextures2048.quad_armalisk
-165 / 374 - com.pa.uber.client.commandertextures2048.quad_calyx
-166 / 374 - com.pa.uber.client.commandertextures2048.quad_gambitdfa
-167 / 374 - com.pa.uber.client.commandertextures2048.quad_mobiousblack
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.quad_mobiousblack
-168 / 374 - com.pa.uber.client.commandertextures2048.quad_osiris
-169 / 374 - com.pa.uber.client.commandertextures2048.quad_potbelly79
-170 / 374 - com.pa.uber.client.commandertextures2048.quad_raventhornn
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.quad_raventhornn
-171 / 374 - com.pa.uber.client.commandertextures2048.quad_sacrificiallamb
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.quad_sacrificiallamb
-172 / 374 - com.pa.uber.client.commandertextures2048.quad_shadowdaemon
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.quad_shadowdaemon
-173 / 374 - com.pa.uber.client.commandertextures2048.quad_spiderofmean
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.quad_spiderofmean
-174 / 374 - com.pa.uber.client.commandertextures2048.quad_tokamaktech
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.quad_tokamaktech
-175 / 374 - com.pa.uber.client.commandertextures2048.quad_twoboots
-176 / 374 - com.pa.uber.client.commandertextures2048.quad_xinthar
-177 / 374 - com.pa.uber.client.commandertextures2048.raptor_beast
-178 / 374 - com.pa.uber.client.commandertextures2048.raptor_beniesk
-179 / 374 - com.pa.uber.client.commandertextures2048.raptor_betadyne
-180 / 374 - com.pa.uber.client.commandertextures2048.raptor_centurion
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.raptor_centurion
-181 / 374 - com.pa.uber.client.commandertextures2048.raptor_diremachine
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.raptor_diremachine
-182 / 374 - com.pa.uber.client.commandertextures2048.raptor_iwmiked
-183 / 374 - com.pa.uber.client.commandertextures2048.raptor_majuju
-184 / 374 - com.pa.uber.client.commandertextures2048.raptor_nemicus
-185 / 374 - com.pa.uber.client.commandertextures2048.raptor_rallus
-186 / 374 - com.pa.uber.client.commandertextures2048.raptor_stickman9000
-+++ Could not find modinfo for com.pa.uber.client.commandertextures2048.raptor_stickman9000
-187 / 374 - com.pa.uber.client.commandertextures2048.raptor_zaazzaa
-188 / 374 - com.pa.uber.client.commandertextures2048.tank_aeson
-189 / 374 - com.pa.uber.client.commandertextures2048.tank_banditks
-190 / 374 - com.pa.warren.strawberry
-+++ Could not find modinfo for com.pa.warren.strawberry
-191 / 374 - com.pa.werty.wModPing
-192 / 374 - com.pa.werty.wScriptSource
-193 / 374 - com.pa.xedi.pixelicons
-194 / 374 - com.pa.yuribros.gumagumaslide_ui
-195 / 374 - com.pac.domdom.amd_green_planet_fix
-196 / 374 - com.pac.domdom.laser_unit_effects
-197 / 374 - com.poland.earth
-198 / 374 - com.shullian.pa.settingsLessSuck
-199 / 374 - com.stuart98.darkishnights
-200 / 374 - com.stuart98.darknights
-201 / 374 - com.stuart98.gat.client
-202 / 374 - com.stuart98.po.client.dev
-203 / 374 - com.stuart98.uberbullets
-204 / 374 - com.titans.client.robintick.kickstarter_commander_icons
-205 / 374 - com.titans.client.robintick.war_turtle_icons
-206 / 374 - com.uberent.pa.PAFX
-207 / 374 - com.uberent.pa.PAFX.classic
-208 / 374 - com.uberent.pa.mods.client.teamlathecolor
-209 / 374 - com.uberent.pa.mods.client.teamubercannoncolor
-210 / 374 - com.warren.pa.locate_commander
-+++ Could not find modinfo for com.warren.pa.locate_commander
-211 / 374 - com.wondible.pa.ai_personalities
-212 / 374 - com.wondible.pa.applied_power
-213 / 374 - com.wondible.pa.bulk_create_units
-214 / 374 - com.wondible.pa.chat_with_player
-215 / 374 - com.wondible.pa.commander_image_color
-216 / 374 - com.wondible.pa.compact_system_list
-217 / 374 - com.wondible.pa.connect_buttons
-218 / 374 - com.wondible.pa.devastated_metal_biome.client
-219 / 374 - com.wondible.pa.editor_planet_list
-220 / 374 - com.wondible.pa.fabulous_selections
-221 / 374 - com.wondible.pa.fast_click
-222 / 374 - com.wondible.pa.fast_delete
-223 / 374 - com.wondible.pa.gamma_fix
-224 / 374 - com.wondible.pa.gross_economy
-225 / 374 - com.wondible.pa.gw_challenge
-226 / 374 - com.wondible.pa.gw_classic_systems
-227 / 374 - com.wondible.pa.gw_ramp
-228 / 374 - com.wondible.pa.gw_shared_systems
-229 / 374 - com.wondible.pa.gw_unlock_loadouts
-230 / 374 - com.wondible.pa.hidden_biomes
-231 / 374 - com.wondible.pa.improved_player_control
-232 / 374 - com.wondible.pa.ingame_tips
-233 / 374 - com.wondible.pa.instant_sandbox
-234 / 374 - com.wondible.pa.junkyard_biome.client
-235 / 374 - com.wondible.pa.keybind_extensions
-236 / 374 - com.wondible.pa.keyboard_viewer
-237 / 374 - com.wondible.pa.linger
-238 / 374 - com.wondible.pa.live_game_input_refactor
-239 / 374 - com.wondible.pa.missile_command
-240 / 374 - com.wondible.pa.mod_help_player_guide.client
-241 / 374 - com.wondible.pa.no_default_system
-242 / 374 - com.wondible.pa.no_gw_video
-243 / 374 - com.wondible.pa.noise_visualizer_biome.client
-244 / 374 - com.wondible.pa.padiag
-245 / 374 - com.wondible.pa.panel_killer
-246 / 374 - com.wondible.pa.peppermint_planet.client
-247 / 374 - com.wondible.pa.queue_by_default
-248 / 374 - com.wondible.pa.sandbox_unit_organizer
-249 / 374 - com.wondible.pa.sandbox_unit_toolbox
-250 / 374 - com.wondible.pa.section_of_foreign_intelligence
-251 / 374 - com.wondible.pa.section_of_research_and_exploration
-252 / 374 - com.wondible.pa.server_host_refresh_button
-253 / 374 - com.wondible.pa.server_mod_help_chat
-254 / 374 - com.wondible.pa.show_lobby_password
-255 / 374 - com.wondible.pa.sim_speed
-256 / 374 - com.wondible.pa.simplified_sun_shader
-257 / 374 - com.wondible.pa.soft_landing
-258 / 374 - com.wondible.pa.strategic_filters
-259 / 374 - com.wondible.pa.surface_area
-260 / 374 - com.wondible.pa.system_editor_reset
-261 / 374 - com.wondible.pa.twitch_viewers
-262 / 374 - com.wondible.pa.two_color_icons
-263 / 374 - com.wondible.pa.two_color_icons_brighter
-264 / 374 - com.wondible.pa.who_dat
-265 / 374 - copyliu.connectlan
-266 / 374 - fr.mereth.pa.mereth.replay
-267 / 374 - fr.mereth.pa.savefilters
-268 / 374 - fr.mereth.pa.startingplanet
-269 / 374 - fr.mereth.pa.twentyfour
-270 / 374 - fr.pa.fr33lancer.TeamCommExplosionColor
-271 / 374 - fr.pa.fr33lancer.TeamCommLandingColor
-272 / 374 - fr.pa.fr33lancer.TeamTeleporterColor
-273 / 374 - info.nanodesu.alertsmanager
-274 / 374 - info.nanodesu.brushlib.client
-275 / 374 - info.nanodesu.controlbartweaks
-276 / 374 - info.nanodesu.covertheline
-277 / 374 - info.nanodesu.freeenergy
-278 / 374 - info.nanodesu.pastats
-279 / 374 - info.nanodesu.pastats.proxy
-280 / 374 - info.nanodesu.pastats.server.client
-281 / 374 - info.nanodesu.rescale.textures
-282 / 374 - info.nanodesu.scaleui
-283 / 374 - info.nanodesu.ubermap
-284 / 374 - nemuneko.gw.unique.loadouts
-285 / 374 - net.BourbonCrow.bcHighlightedBuildings
-286 / 374 - net.orfjackal.pa-build-power
-287 / 374 - net.orfjackal.pa-mentor
-288 / 374 - nl.pa.Alpha.CPlosion
-Could not load json file: tmp-mods\nl.pa.Alpha.CPlosion\CPlosion-32e1bcab744769172b959f2859ef88812f858dc0\mod\default_explosion_bot.pfx
-289 / 374 - nl.pa.Alpha.alpha2546_map_pack
-290 / 374 - nl.pa.Alpha.ant_effects_mod
-291 / 374 - nl.pa.Alpha.combat_fabricator_grouping_mod
-292 / 374 - nl.pa.Alpha.dox_effects_mod
-293 / 374 - nl.pa.Alpha.grenadiers_effects_mod
-294 / 374 - nl.pa.Alpha.levelers_effects_mod
-295 / 374 - nl.pa.Alpha.naval_trails
-296 / 374 - nl.pa.Alpha.sheller_effect_mod
-297 / 374 - nl.pa.Alpha.slammer_projectile_mod
-298 / 374 - nl.pa.Alpha.sunshine_mod
-299 / 374 - nl.pa.Alpha.violetania_map_pack
-300 / 374 - nl.pa.Pwn4two.pwn4two_map_pack
-301 / 374 - nl.pa.andreasg.andreasg_map_pack
-302 / 374 - nl.pa.andreasg.ffa_map_pack
-303 / 374 - nl.pa.wpmarshall.wpmarshall_map_pack
-304 / 374 - rainbow_racers_client
-305 / 374 - trilioth-com
-306 / 374 - FixLobs-server
-307 / 374 - FixReclaim-server
-308 / 374 - IgnDox
-+++ Could not find modinfo for IgnDox
-309 / 374 - MetalHeck
-310 / 374 - MysticalFists.AIS.Cheats
-311 / 374 - MysticalFists.AIST2.Cheats
-312 / 374 - bReplicators
-313 / 374 - com.aevns.server.acliffplanets
-314 / 374 - com.aidinabedi.pa.preloaded_antinukes
-315 / 374 - com.elodea.battleship.minimod
-316 / 374 - com.heiz.aurora_arty
-317 / 374 - com.pa.Beta57047.rebalance
-318 / 374 - com.pa.Rancor.server.cliffplanets
-319 / 374 - com.pa.angry.robots
-320 / 374 - com.pa.burntcustard.bBoomBotWars
-Could not load json file: tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\vehicle_factory_adv\vehicle_factory_adv.json
-321 / 374 - com.pa.domdom.guma_guma_slide
-322 / 374 - com.pa.killerkiwijuice.antlyf
-Could not load json file: tmp-mods\com.pa.killerkiwijuice.antlyf\Ant4Lyf-Mod-master\com.pa.killerkiwijuice.antlyf\pa\effects\specs\CPlosion.pfx
-323 / 374 - com.pa.killerkiwijuice.doxlyf
-Could not load json file: tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\effects\specs\CPlosion.pfx
-Could not load json file: tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\land\bot_factory\bot_factory.json
-324 / 374 - com.pa.kiwi.bomber_priority
-325 / 374 - com.pa.kiwi.no_lame_ass_ragnarok
-326 / 374 - com.pa.kiwi.swarm
-327 / 374 - com.pa.mikeyh.gChatPromoter
-328 / 374 - com.pa.mikeyh.gDisplayRank
-329 / 374 - com.pa.mikeyh.gGameInvites
-330 / 374 - com.pa.mikeyh.gLobbySystemPreview
-331 / 374 - com.pa.mikeyh.gReadyUp
-332 / 374 - com.pa.mikeyh.gSpectatorChat
-333 / 374 - com.pa.mikeyh.gUnitSelector
-334 / 374 - com.pa.mikeyh.gWhoDeletedThat
-335 / 374 - com.pa.orbital_warfare_overhaul
-336 / 374 - com.pa.quitch.qAIModCompatibilityPatch
-337 / 374 - com.pa.quitch.qQuellerAI
-338 / 374 - com.pa.startege.TCommander
-339 / 374 - com.pa.true-economy
-340 / 374 - com.stuart98.gatitans
-Could not load json file: tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\effects\specs\default_explosion_bot_t2.pfx
-341 / 374 - com.stuart98.po.server.dev
-Could not load json file: tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\effects\specs\default_explosion_bot_t2.pfx
-342 / 374 - com.titans.server.robintick.kickstarter_commander
-343 / 374 - com.titans.server.robintick.war_turtle
-344 / 374 - com.warren.pa.superlandmines
-+++ Could not find modinfo for com.warren.pa.superlandmines
-345 / 374 - com.wondible.pa.baboom
-346 / 374 - com.wondible.pa.battle_for_the_tank
-347 / 374 - com.wondible.pa.commander_regeneration
-348 / 374 - com.wondible.pa.devastated_metal_biome.server
-349 / 374 - com.wondible.pa.extreme_energy_combat
-350 / 374 - com.wondible.pa.extremely_efficient_engineers
-351 / 374 - com.wondible.pa.finite_metal
-352 / 374 - com.wondible.pa.hodgepodge
-353 / 374 - com.wondible.pa.icon_reloader
-354 / 374 - com.wondible.pa.junkyard_biome.server
-355 / 374 - com.wondible.pa.land_war
-356 / 374 - com.wondible.pa.low_energy_commander
-357 / 374 - com.wondible.pa.minimal_mex
-358 / 374 - com.wondible.pa.mod_help_player_guide.server
-359 / 374 - com.wondible.pa.no_metal_commander
-360 / 374 - com.wondible.pa.peppermint_planet.server
-361 / 374 - com.wondible.pa.preloaded_nukes
-362 / 374 - com.wondible.pa.puppetmaster
-363 / 374 - com.wondible.pa.reclaimable_features
-364 / 374 - com.wondible.pa.timed_squalls
-365 / 374 - com.wondible.pa.titan_gantry
-366 / 374 - com.wondible.pa.weapons_tracking
-367 / 374 - com.wondible.pa.wreckage
-368 / 374 - info.nanodesu.CustomPlanetOrigin
-+++ Could not find modinfo for info.nanodesu.CustomPlanetOrigin
-369 / 374 - info.nanodesu.brushlib.server
-370 / 374 - info.nanodesu.murderparty
-371 / 374 - info.nanodesu.pastats.server.server
-372 / 374 - mod
-373 / 374 - rainbow_racers_server
------------------- DONE
 ================== ISSUE SUMMARY
-===== com.stuart98.po.server.dev =====[ 180 ]
-/pa/effects/fbx/particles/l_vehicle_factory_adv_energy_platform.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\energy_platform_adv.pfx
-/ui/main/shared/img/commanders/thumbs/img_l_overwatch_thumb.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
-/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_run.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
-/pa/units/legion/air/l_air_factory/l_air_factory_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory\l_air_factory.json
-/pa/effects/textures/particles/square.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\effects\specs\legion_fab_spray.pfx
-/pa/units/legion/sea/l_naval_factory/l_naval_factory_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory\l_naval_factory.json
-/pa/units/vanilla/land/tank_orbital/Vao13_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\tank_orbital\tank_orbital.json
-/pa/units/legion/land/l_bot_factory/l_bot_factory_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
-/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv_anim_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_morty_adv\l_bot_morty_adv.json
-/pa/units/legion/land/l_bot_bomb/l_bot_bomb_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_bomb\l_bot_bomb.json
-/pa/units/legion/land/l_bot_orbital/ao32_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_orbital\l_bot_orbital.json
-/pa/units/legion/land/l_assault_bot/l_assault_bot_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_assault_bot\l_assault_bot.json
-/pa/units/legion/land/l_air_defense/l_air_defense_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_air_defense\l_air_defense.json
-/pa/units/legion/land/l_assault_bot/l_assault_bot_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_assault_bot\l_assault_bot.json
-/pa/units/legion/sea/l_battlecruiser/nassault23a_anim_fire.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_battlecruiser\l_battlecruiser.json
-/pa/units/legion/land/l_necromancer/l_necromancer_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_necromancer\l_necromancer.json
-/pa/units/legion/land/l_bot_bomb/l_bot_bomb_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_bomb\l_bot_bomb.json
-/pa/units/legion/land/l_vehicle_factory_adv/l_vehicle_factory_adv_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\l_vehicle_factory_adv.json
-/pa/units/vanilla/land/bot_skirmish/bot_skirmish_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_skirmish\bot_skirmish.json
-/pa/units/legion/land/l_riot_bot/l_riot_bot_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_riot_bot\l_riot_bot.json
-/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_aimDown.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
-/ui/main/shared/img/commanders/profiles/profile_l_wasushi.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
-/pa/units/legion/land/l_necromancer/l_necromancer_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_necromancer\l_necromancer.json
-/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot_adv\l_fabrication_bot_adv.json
-/pa/units/commanders/l_rockteeth/l_rockteeth_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
-/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_run.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_delta_v_engine\l_delta_v_engine.json
-/pa/units/vanilla/land/bot_bomb/bot_bomb_ammo_explosion.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\land_mine\land_mine.json
-/pa/units/legion/air/l_flying_teleporter/l_flying_teleporter_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_flying_teleporter\l_flying_teleporter.json
-/ui/main/shared/img/commanders/profiles/profile_l_overwatch.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
-/pa/units/legion/air/l_air_carrier/l_drone/l_drone_anim_deploy.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_carrier\l_drone\l_drone.json
-/pa/units/legion/orbital/l_orbital_launcher/l_orbital_launcher_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_launcher\l_orbital_launcher.json
-/pa/units/commanders/l_overwatch/l_overwatch_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
-/pa/units/legion/land/l_radar_adv/l_radar_adv_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar_adv\l_radar_adv.json
-/pa/units/vanilla/land/fabrication_bot_combat/fabrication_bot_combat_anim_idleX.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat\fabrication_bot_combat.json
-/pa/effects/fbx/particles/l_energy_rod.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_artillery_long\back_hatch.pfx
-/pa/units/legion/land/l_bot_heavy/l_bot_heavy_anim_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_heavy\l_bot_heavy.json
-/pa/units/legion/land/l_bot_aa/l_bot_aa_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa\l_bot_aa.json
-/pa/units/legion/orbital/l_orbital_probe/l_orbital_probe_closed.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_probe\l_orbital_probe.json
-/pa/units/legion/sea/l_missile_ship/l_missile_ship_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_missile_ship\l_missile_ship.json
-/pa/units/legion/orbital/l_radar_satellite/l_radar_satellite_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_radar_satellite\l_radar_satellite.json
-/pa/units/legion/orbital/l_mining_platform/l_mining_platform_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_mining_platform\l_mining_platform.json
-/pa/units/legion/air/l_air_factory_adv/l_air_factory_adv_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory_adv\l_air_factory_adv.json
-/pa/units/legion/land/l_titan_bot/l_titan_bot_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_titan_bot\l_titan_bot.json
-/pa/units/legion/air/l_air_factory_adv/l_air_factory_adv_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory_adv\l_air_factory_adv.json
-/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimDown.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/legion/orbital/l_orbital_launcher/l_orbital_launcher_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_launcher\l_orbital_launcher.json
-/pa/units/legion/air/l_air_bomb/l_air_bomb_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_bomb\triggered\l_air_bomb.json
-/pa/units/legion/land/l_hover_laser/l_hover_laser_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_hover_laser\l_hover_laser.json
-/pa/units/legion/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_torpedo_launcher_adv\l_torpedo_launcher_adv.json
-/pa/units/vanilla/sea/sonar_adv/sonar_adv_anim_work.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_sonar_adv\l_sonar_adv.json
-/pa/units/legion/land/l_energy_plant_adv/l_energy_plant_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_energy_plant_adv\l_energy_plant_adv.json
-/pa/units/legion/air/l_air_factory/l_air_factory_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory\l_air_factory.json
-/pa/units/legion/orbital/l_titan_orbital/l_titan_orbital_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_titan_orbital\l_titan_orbital.json
-/pa/effects/fbx/particles/energy_rods.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_sniper_tank\energy_rods.pfx
-/pa/units/legion/land/l_vehicle_factory/l_vehicle_factory_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\l_vehicle_factory.json
-/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idleX.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
-/pa/units/legion/orbital/l_radar_satellite_adv/l_radar_satellite_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_radar_satellite_adv\l_radar_satellite_adv.json
-/pa/units/legion/land/l_bot_artillery/l_bot_artillery_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_artillery\l_bot_artillery.json
-/pa/units/vanilla/land/fabrication_bot_combat/fabrication_bot_combat_anim_runX.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat\fabrication_bot_combat.json
-/pa/units/vanilla/sea/drone_carrier/carrier/carrier_drone_launch.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\sea\drone_carrier\carrier\carrier.json
-/pa/units/legion/land/l_bot_factory/l_bot_factory_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
-/pa/units/commanders/l_wasushi/l_wasushi_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
-/pa/units/vanilla/land/bot_sniper/bot_sniper_beam_flash.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_sniper\bot_sniper.json
-/pa/units/legion/land/l_sniper_bot/l_sniper_bot_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_sniper_bot\l_sniper_bot.json
-/pa/units/legion/sea/l_naval_factory/l_naval_factory_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory\l_naval_factory.json
-/pa/units/legion/air/l_air_factory/l_air_factory_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory\l_air_factory.json
-/pa/units/legion/orbital/l_orbital_fighter/l_orbital_fighter_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_fighter\l_orbital_fighter.json
-/pa/units/legion/air/l_air_scout_adv/l_air_scout_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_scout_adv\l_air_scout_adv.json
-/pa/units/legion/sea/l_sea_tank/l_sea_tank_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_sea_tank\l_sea_tank.json
-/pa/units/legion/orbital/l_orbital_factory/l_orbital_factory_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_factory\l_orbital_factory.json
-/pa/units/vanilla/air/shell_large/shell_large.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\base_artillery\base_artillery.json
-/pa/units/vanilla/land/bot_arty/bot_arty_anim_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_arty\bot_arty.json
-/pa/units/legion/sea/l_naval_factory/l_naval_factory_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory\l_naval_factory.json
-/pa/units/legion/land/l_bot_aa/l_bot_aa_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa\l_bot_aa.json
-/pa/units/legion/land/l_bot_heavy/l_bot_heavy_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_heavy\l_bot_heavy.json
-/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander_closed.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_lander\l_orbital_lander.json
-/pa/units/legion/orbital/l_orbital_factory/l_orbital_factory_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_factory\l_orbital_factory.json
-/pa/effects/fbx/particles/tele_wall.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_teleporter\idle.pfx
-/pa/units/legion/sea/l_naval_factory_adv/l_naval_factory_adv_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory_adv\l_naval_factory_adv.json
-/pa/units/legion/land/l_bot_factory/l_bot_factory_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
-/pa/units/vanilla/air/bomb/bomb.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\bomb\bomb.json
-/pa/effects/fbx/particles/l_vehicle_factory_energy_platform.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\energy_platform.pfx
-/pa/units/vanilla/sea/torpedo/torpedo.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\torpedo\torpedo.json
-/pa/units/vanilla/land/fabrication_bot_combat/fabrication_bot_combat_anim_death01X.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat\fabrication_bot_combat.json
-/pa/units/legion/land/l_scout_bot/l_scout_bot_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_scout_bot\l_scout_bot_radar_mode_collision_check.json
-/pa/units/legion/land/l_bot_aa_adv/l_bot_aa_adv_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa_adv\l_bot_aa_adv.json
-/pa/effects/textures/particles/bullet_shell_texture.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\effects\specs\bullet_shells.pfx
-/ui/main/shared/img/commanders/img_l_cyclops.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
-/pa/units/legion/land/l_bot_orbital/ao32_anim_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_orbital\l_bot_orbital.json
-/pa/units/vanilla/land/bot_skirmish/bot_skirmish_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_skirmish\bot_skirmish.json
-/pa/units/vanilla/air/solar_drone/solar_drone_muzzle_flash.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\air\solar_drone\solar_drone.json
-/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_dropper\l_orbital_dropper.json
-/pa/effects/textures/particles/softerdot.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_tank_laser_adv\muzzle_flash.pfx
-/pa/units/legion/land/l_bot_artillery_adv/muzzle_flash.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_probe\l_orbital_probe.json
-/pa/units/legion/land/l_bot_artillery/l_bot_artillery_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_artillery\l_bot_artillery.json
-/ui/main/shared/img/commanders/thumbs/img_l_wasushi_thumb.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
-/pa/units/commanders/l_wasushi/l_wasushi_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
-/ui/main/shared/img/commanders/img_l_rockteeth.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
-/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_aimUp.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
-/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_lander\l_orbital_lander.json
-/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_walkStop.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
-/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_nuke_launcher\l_nuke_launcher.json
-/pa/units/legion/orbital/l_orbital_railgun/l_orbital_railgun_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_railgun\l_orbital_railgun.json
-/pa/units/legion/orbital/l_orbital_railgun/l_orbital_railgun_closed.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_railgun\l_orbital_railgun.json
-/pa/units/legion/land/l_radar/l_radar_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar\l_radar.json
-/pa/units/legion/land/l_radar_adv/l_radar_adv_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar_adv\l_radar_adv.json
-/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_idle01.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
-/pa/units/legion/land/l_mex/l_metal_extractor_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_mex\l_mex.json
-/ui/main/shared/img/commanders/img_l_overwatch.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
-/pa/units/vanilla/sea/sonar/sonar_anim_work.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_sonar\l_sonar.json
-/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01X.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
-/pa/units/vanilla/land/bot_arty/bot_arty_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_arty\bot_arty.json
-/pa/units/legion/land/l_bot_factory_adv/l_bot_factory_adv_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory_adv\l_bot_factory_adv.json
-/pa/units/commanders/l_cyclops/l_cyclops_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
-/pa/units/legion/land/l_bot_factory_adv/l_bot_factory_adv_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory_adv\l_bot_factory_adv.json
-/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_nuke_launcher\l_nuke_launcher.json
-/pa/units/legion/land/l_vehicle_factory_adv/l_vehicle_factory_adv_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\l_vehicle_factory_adv.json
-/pa/units/legion/air/l_air_factory_adv/l_air_factory_adv_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory_adv\l_air_factory_adv.json
-/pa/units/vanilla/land/megabot/megabot_missile_ammo.json not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_tactical_missile\bot_tactical_missile_tool_antidrop.json
-/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_ammo_teleporter.json not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_ion_defense\l_ion_defense_tool_antidrop.json
-/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_dropper\l_orbital_dropper.json
-/pa/units/legion/orbital/l_orbital_launcher/l_orbital_launcher_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_launcher\l_orbital_launcher.json
-/pa/units/legion/land/l_bot_support_commander/l_bot_support_commander_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_support_commander\l_bot_support_commander.json
-/pa/units/vanilla/air/shell/shell.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\shell_tank\shell_tank.json
-/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_aimUp.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
-/ui/main/shared/img/commanders/thumbs/img_l_cyclops_thumb.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
-/pa/units/legion/land/l_mex_adv/l_metal_extractor_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_mex_adv\l_mex_adv.json
-/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_death01.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/legion/orbital/l_radar_satellite/l_radar_satellite_closed.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_radar_satellite\l_radar_satellite.json
-/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimUp.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/vanilla/land/land_scout/land_scout_anim_drive.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\land_scout\land_scout.json
-/pa/units/legion/land/l_vehicle_factory/l_vehicle_factory_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\l_vehicle_factory.json
-/pa/units/vanilla/air/gunship/gunship_muzzle_flash.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\air\gunship\gunship.json
-/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_dropper\l_orbital_dropper.json
-/pa/units/legion/land/l_scout_bot/l_scout_bot_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_scout_bot\l_scout_bot.json
-/pa/units/legion/land/l_bot_aa_adv/l_bot_aa_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa_adv\l_bot_aa_adv.json
-/pa/units/legion/orbital/l_defense_satellite/l_defense_satellite_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_defense_satellite\l_defense_satellite.json
-/pa/units/legion/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_fabrication_bot\l_orbital_fabrication_bot.json
-/pa/units/vanilla/air/atoa_missile/atoa_missile.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\missile_tactical\missile_tactical.json
-/pa/units/legion/land/l_fabrication_bot/l_fabrication_bot_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot\l_fabrication_bot.json
-/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/legion/air/l_air_carrier/l_drone/l_drone_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_carrier\l_drone\l_drone.json
-/ui/main/shared/img/commanders/profiles/profile_l_rockteeth.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
-/pa/units/vanilla/air/base_flyer/base_flyer_death_t2.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_firestarter\l_firestarter.json
-/pa/units/legion/land/l_fabrication_bot/l_fabrication_bot_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot\l_fabrication_bot.json
-/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_aimDown.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
-/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_death01.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
-/pa/effects/fbx/particles/l_energy_rod_diffuse.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_artillery_long\back_hatch.pfx
-/ui/main/shared/img/commanders/profiles/profile_l_cyclops.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
-/pa/units/legion/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_scout_bot\l_scout_bot_radar_mode.json
-/pa/units/legion/land/l_vehicle_factory_adv/l_vehicle_factory_adv_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\l_vehicle_factory_adv.json
-/ui/main/shared/img/commanders/thumbs/img_l_rockteeth_thumb.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
-/pa/units/legion/land/l_vehicle_factory/l_vehicle_factory_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\l_vehicle_factory.json
-/pa/units/commanders/l_overwatch/l_overwatch_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
-/pa/units/legion/land/l_radar_adv/l_radar_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar_adv\l_radar_adv.json
-/pa/units/vanilla/air/missile/missile.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\base_missiles\base_missile.json
-/pa/units/land/l_mortar_tank/l_mortar_explosion.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_mortar_tank\l_mortar_tank_ammo.json
-/pa/units/legion/land/l_sniper_bot/l_sniper_bot_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_sniper_bot\l_sniper_bot.json
-/pa/effects/fbx/particles/l_radar_mesh.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar\l_radar_on.pfx
-/pa/units/legion/sea/l_naval_factory_adv/l_naval_factory_adv_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory_adv\l_naval_factory_adv.json
-/pa/effects/fbx/particles/laser_beam_mesh.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\effects\specs\laser_beam.pfx
-/pa/units/legion/orbital/l_orbital_factory/l_orbital_factory_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_factory\l_orbital_factory.json
-/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_walk01.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
-/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_nuke_launcher\l_nuke_launcher.json
-/ui/main/shared/img/commanders/img_l_wasushi.png not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
-/pa/units/vanilla/land/bot_sniper/bot_sniper_beam.pfx not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\air\support_platform\support_platform_interception_ammo.json
-/pa/units/legion/land/l_bot_support_commander/l_bot_support_commander_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_support_commander\l_bot_support_commander.json
-/pa/units/legion/land/l_bot_factory/l_bot_factory_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
-/pa/units/legion/land/l_bot_factory_adv/l_bot_factory_adv_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory_adv\l_bot_factory_adv.json
-/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_runX.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
-/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot_adv\l_fabrication_bot_adv.json
-/pa/units/legion/orbital/l_orbital_probe/l_orbital_probe_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_probe\l_orbital_probe.json
-/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine_start.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_delta_v_engine\l_delta_v_engine.json
-/pa/units/vanilla/land/bot_orbital/bot_orbital_ammo.json not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_orbital\l_bot_orbital_tool_weapon.json
-/pa/units/legion/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_closed.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_fabrication_bot\l_orbital_fabrication_bot.json
-/pa/units/legion/air/l_firestarter/l_firestarter_open.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_firestarter\l_firestarter.json
-/pa/units/legion/sea/l_naval_factory_adv/l_naval_factory_adv_build.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory_adv\l_naval_factory_adv.json
-/pa/units/legion/land/l_riot_bot/l_riot_bot_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_riot_bot\l_riot_bot.json
-/pa/units/commanders/l_cyclops/l_cyclops_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
-===== com.pa.killerkiwijuice.antlyf =====[ 2 ]
-/pa/units/land/base_unit/base_unit.json not found, referenced by:
-     tmp-mods\com.pa.killerkiwijuice.antlyf\Ant4Lyf-Mod-master\com.pa.killerkiwijuice.antlyf\pa\units\unit_list.json
-/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa not found, referenced by:
-     tmp-mods\com.pa.killerkiwijuice.antlyf\Ant4Lyf-Mod-master\com.pa.killerkiwijuice.antlyf\pa\units\land\artillery_long\artillery_long.json
-===== com.elodea.battleship.minimod =====[ 1 ]
-/pa/units/sea/missile_ship_aa_ammo.json not found, referenced by:
-     tmp-mods\com.elodea.battleship.minimod\com.pa.elodea.battleship.minimod\pa\units\air\fighter_adv\fighter_adv_ciws_tool_weapon.json
-===== com.pa.burntcustard.bBoomBotWars =====[ 3 ]
-metal/s. not found, referenced by:
-     tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\artillery_long\artillery_long.json
-/pa/units/land/base_unit/base_unit.json not found, referenced by:
-     tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\unit_list.json
-/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa not found, referenced by:
-     tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\artillery_long\artillery_long.json
 ===== com.heiz.aurora_arty =====[ 1 ]
+-- FILES
 /pa/effects/specs/default_commander_explosion_air_ent.pfx not found, referenced by:
      tmp-mods\com.heiz.aurora_arty\com.heiz.aurora_arty1.1-2.1\pa\units\orbital\orbital_armageddon\orbital_armageddon_ammo.json
+-- JSON ERRORS
+===== com.elodea.battleship.minimod =====[ 1 ]
+-- FILES
+/pa/units/sea/missile_ship_aa_ammo.json not found, referenced by:
+     tmp-mods\com.elodea.battleship.minimod\com.pa.elodea.battleship.minimod\pa\units\air\fighter_adv\fighter_adv_ciws_tool_weapon.json
+-- JSON ERRORS
 ===== info.nanodesu.murderparty =====[ 10 ]
-/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json not found, referenced by:
-     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
+-- FILES
 /pa/units/orbital/orbital_egg/orbital_egg.json not found, referenced by:
-     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
-/pa/units/land/amphibious_bot/amphibious_bot.json not found, referenced by:
-     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
-/pa/units/air/missile_orbital/missile_orbital.json not found, referenced by:
-     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
-/pa/units/sea/fabrication_sub/fabrication_sub.json not found, referenced by:
-     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
-/pa/units/land/base_unit/base_unit.json not found, referenced by:
-     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
-/pa/units/air/missile_orbital_booster/missile_orbital_booster.json not found, referenced by:
      tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
 /pa/units/air/missile/missile.json not found, referenced by:
      tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
-/pa/units/sea/sonar_adv/sonar_adv.json not found, referenced by:
+/pa/units/air/missile_orbital/missile_orbital.json not found, referenced by:
+     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
+/pa/units/air/missile_orbital_booster/missile_orbital_booster.json not found, referenced by:
      tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
 /pa/units/sea/sonar/sonar.json not found, referenced by:
      tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
-===== com.pa.killerkiwijuice.doxlyf =====[ 4 ]
+/pa/units/sea/fabrication_sub/fabrication_sub.json not found, referenced by:
+     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
+/pa/units/sea/sonar_adv/sonar_adv.json not found, referenced by:
+     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
+/pa/units/land/amphibious_bot/amphibious_bot.json not found, referenced by:
+     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
+/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json not found, referenced by:
+     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
 /pa/units/land/base_unit/base_unit.json not found, referenced by:
-     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\unit_list.json
-/pa/units/land/assault_bot/assault_bot_squisher_ammo.json not found, referenced by:
-     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\land\assault_bot_adv\assault_bot_squisher_tool_weapon.json
-/pa/units/land/artillery_Xlong/artillery_Xlong.json not found, referenced by:
-     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\unit_list.json
+     tmp-mods\info.nanodesu.murderparty\servermod-murderparty-be866e556bd2368937708dcf5a921fc8c8dea8bf\murderParty\pa\units\unit_list.json
+-- JSON ERRORS
+===== com.heiz.aurora_artyUI =====[ 1 ]
+-- FILES
+/pa/effects/specs/default_commander_explosion_air_ent.pfx not found, referenced by:
+     tmp-mods\com.heiz.aurora_artyUI\com.heiz.aurora_artyUI-1.8\pa\units\orbital\orbital_armageddon\orbital_armageddon_ammo.json
+-- JSON ERRORS
+===== com.stuart98.po.server.dev =====[ 181 ]
+-- FILES
+/pa/units/legion/sea/l_naval_factory/l_naval_factory_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory\l_naval_factory.json
+/ui/main/shared/img/commanders/profiles/profile_l_wasushi.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
+/pa/units/legion/orbital/l_radar_satellite_adv/l_radar_satellite_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_radar_satellite_adv\l_radar_satellite_adv.json
+/pa/units/legion/sea/l_naval_factory_adv/l_naval_factory_adv_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory_adv\l_naval_factory_adv.json
+/pa/units/legion/land/l_titan_bot/l_titan_bot_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_titan_bot\l_titan_bot.json
+/pa/units/legion/orbital/l_defense_satellite/l_defense_satellite_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_defense_satellite\l_defense_satellite.json
+/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_walk01.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
+/pa/units/vanilla/sea/sonar/sonar_anim_work.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_sonar\l_sonar.json
+/pa/units/legion/land/l_bot_factory/l_bot_factory_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
+/pa/units/legion/orbital/l_orbital_probe/l_orbital_probe_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_probe\l_orbital_probe.json
+/pa/effects/fbx/particles/l_vehicle_factory_energy_platform.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\energy_platform.pfx
+/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_aimDown.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
+/pa/units/vanilla/air/atoa_missile/atoa_missile.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\missile_tactical\missile_tactical.json
+/pa/units/legion/air/l_air_bomb/l_air_bomb_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_bomb\l_air_bomb.json
+/pa/units/vanilla/land/tank_orbital/Vao13_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\tank_orbital\tank_orbital.json
+/pa/units/vanilla/land/land_scout/land_scout_anim_drive.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\land_scout\land_scout.json
+/pa/units/legion/land/l_bot_bomb/l_bot_bomb_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_bomb\l_bot_bomb.json
+/pa/units/legion/land/l_bot_artillery/l_bot_artillery_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_artillery\l_bot_artillery.json
+/ui/main/shared/img/commanders/thumbs/img_l_rockteeth_thumb.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
+/pa/units/legion/land/l_bot_artillery_adv/muzzle_flash.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_probe\l_orbital_probe.json
+/pa/units/vanilla/land/bot_bomb/bot_bomb_ammo_explosion.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\land_mine\land_mine.json
+/pa/units/legion/sea/l_battlecruiser/nassault23a_anim_fire.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_battlecruiser\l_battlecruiser.json
+/pa/units/legion/land/l_radar/l_radar_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar\l_radar.json
+/pa/units/legion/land/l_mex_adv/l_metal_extractor_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_mex_adv\l_mex_adv.json
+/ui/main/shared/img/commanders/img_l_cyclops.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
+/pa/units/legion/land/l_bot_factory/l_bot_factory_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
+/pa/units/legion/land/l_bot_factory_adv/l_bot_factory_adv_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory_adv\l_bot_factory_adv.json
+/pa/units/vanilla/land/bot_arty/bot_arty_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_arty\bot_arty.json
+/pa/units/vanilla/sea/drone_carrier/carrier/carrier_drone_launch.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\sea\drone_carrier\carrier\carrier.json
+/pa/units/legion/land/l_bot_heavy/l_bot_heavy_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_heavy\l_bot_heavy.json
+/pa/units/legion/land/l_radar_adv/l_radar_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar_adv\l_radar_adv.json
+/pa/units/legion/orbital/l_orbital_launcher/l_orbital_launcher_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_launcher\l_orbital_launcher.json
+/pa/units/legion/land/l_radar_adv/l_radar_adv_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar_adv\l_radar_adv.json
+/pa/units/legion/land/l_bot_factory/l_bot_factory_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
+/pa/units/vanilla/land/fabrication_bot_combat/fabrication_bot_combat_anim_idleX.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat\fabrication_bot_combat.json
+/pa/units/legion/land/l_vehicle_factory_adv/l_vehicle_factory_adv_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\l_vehicle_factory_adv.json
+/ui/main/shared/img/commanders/thumbs/img_l_wasushi_thumb.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
+/pa/units/legion/land/l_energy_plant_adv/l_energy_plant_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_energy_plant_adv\l_energy_plant_adv.json
+/pa/units/legion/land/l_riot_bot/l_riot_bot_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_riot_bot\l_riot_bot.json
+/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idleX.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
+/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_aimUp.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
+/pa/units/legion/land/l_vehicle_factory/l_vehicle_factory_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\l_vehicle_factory.json
+/pa/units/land/l_mortar_tank/l_mortar_explosion.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_mortar_tank\l_mortar_tank_ammo.json
+/ui/main/shared/img/commanders/img_l_rockteeth.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
+/pa/units/commanders/l_cyclops/l_cyclops_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
+/pa/units/legion/land/l_fabrication_bot/l_fabrication_bot_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot\l_fabrication_bot.json
+/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_aimDown.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
+/pa/units/legion/sea/l_missile_ship/l_missile_ship_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_missile_ship\l_missile_ship.json
+/pa/units/legion/land/l_necromancer/l_necromancer_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_necromancer\l_necromancer.json
+/pa/units/vanilla/air/shell_large/shell_large.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\base_artillery\base_artillery.json
+/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_nuke_launcher\l_nuke_launcher.json
+/pa/units/vanilla/land/bot_arty/bot_arty_anim_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_arty\bot_arty.json
+/pa/units/legion/land/l_bot_orbital/ao32_anim_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_orbital\l_bot_orbital.json
+/pa/units/vanilla/land/bot_sniper/bot_sniper_beam_flash.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_sniper\bot_sniper.json
+/pa/effects/fbx/particles/l_radar_mesh.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar\l_radar_on.pfx
+/ui/main/shared/img/commanders/profiles/profile_l_overwatch.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
+/pa/units/vanilla/sea/sonar_adv/sonar_adv_anim_work.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\sea\sonar_adv\sonar_adv.json
+/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
+/pa/units/legion/land/l_scout_bot/radar_mode/l_scout_bot_radar_mode_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_scout_bot\l_scout_bot_radar_mode.json
+/pa/units/legion/land/l_necromancer/l_necromancer_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_necromancer\l_necromancer.json
+/pa/units/legion/orbital/l_orbital_fighter/l_orbital_fighter_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_fighter\l_orbital_fighter.json
+/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_death01.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
+/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_delta_v_engine\l_delta_v_engine.json
+/pa/units/commanders/l_wasushi/l_wasushi_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
+/pa/units/legion/land/l_vehicle_factory/l_vehicle_factory_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\l_vehicle_factory.json
+/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimDown.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
+/pa/effects/textures/particles/square.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\effects\specs\legion_factory_spray_short.pfx
+/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_lander\l_orbital_lander.json
+/pa/units/legion/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_fabrication_bot\l_orbital_fabrication_bot.json
+/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_runX.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
+/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_aimUp.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
+/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_death01.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
+/pa/units/vanilla/land/bot_aa_adv/bot_aa_adv_anim_run.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_aa_adv\bot_aa_adv.json
+/pa/units/legion/land/l_bot_support_commander/l_bot_support_commander_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_support_commander\l_bot_support_commander.json
+/pa/units/vanilla/land/megabot/megabot_missile_ammo.json not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_tactical_missile\bot_tactical_missile_tool_antidrop.json
+/pa/units/legion/air/l_air_scout_adv/l_air_scout_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_scout_adv\l_air_scout_adv.json
+/pa/effects/fbx/particles/laser_beam_mesh.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\effects\specs\laser_beam.pfx
+/pa/units/legion/orbital/l_orbital_launcher/l_orbital_launcher_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_launcher\l_orbital_launcher.json
+/pa/units/legion/air/l_air_carrier/l_drone/l_drone_anim_deploy.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_carrier\l_drone\l_drone.json
+/ui/main/shared/img/commanders/profiles/profile_l_rockteeth.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
+/pa/units/legion/land/l_vehicle_factory_adv/l_vehicle_factory_adv_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\l_vehicle_factory_adv.json
+/pa/units/legion/orbital/l_orbital_launcher/l_orbital_launcher_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_launcher\l_orbital_launcher.json
+/pa/units/legion/land/l_bot_orbital/ao32_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_orbital\l_bot_orbital.json
+/pa/units/vanilla/air/bomb/bomb.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\base_bomb\base_bomb.json
+/pa/units/legion/land/l_bot_support_commander/l_bot_support_commander_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_support_commander\l_bot_support_commander.json
+/pa/units/legion/land/l_bot_aa/l_bot_aa_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa\l_bot_aa.json
+/pa/units/legion/land/l_bot_aa_adv/l_bot_aa_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa_adv\l_bot_aa_adv.json
+/pa/effects/fbx/particles/tele_wall.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_teleporter\idle.pfx
+/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_ammo_teleporter.json not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_ion_defense\l_ion_defense_tool_antidrop.json
+/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_walkStop.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
+/pa/units/legion/land/l_bot_factory/l_bot_factory_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory\l_bot_factory.json
+/pa/units/legion/land/l_radar_adv/l_radar_adv_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_radar_adv\l_radar_adv.json
+/pa/units/legion/orbital/l_radar_satellite/l_radar_satellite_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_radar_satellite\l_radar_satellite.json
+/pa/units/legion/land/l_sniper_bot/l_sniper_bot_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_sniper_bot\l_sniper_bot.json
+/pa/units/vanilla/land/bot_artillery/bot_artillery_anim_run.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_mortar\bot_mortar.json
+/pa/units/vanilla/air/shell/shell.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\shell_tank\shell_tank.json
+/pa/units/vanilla/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01X.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
+/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot_adv\l_fabrication_bot_adv.json
+/pa/units/vanilla/land/bot_skirmish/bot_skirmish_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_skirmish\bot_skirmish.json
+/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_dropper\l_orbital_dropper.json
+/pa/units/legion/sea/l_naval_factory_adv/l_naval_factory_adv_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory_adv\l_naval_factory_adv.json
+/pa/units/legion/orbital/l_orbital_railgun/l_orbital_railgun_closed.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_railgun\l_orbital_railgun.json
+/pa/units/legion/air/l_air_factory/l_air_factory_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory\l_air_factory.json
+/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_dropper\l_orbital_dropper.json
+/ui/main/shared/img/commanders/img_l_overwatch.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
+/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_idle01.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
+/pa/units/legion/orbital/l_orbital_lander/l_orbital_lander_closed.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_lander\l_orbital_lander.json
+/pa/units/legion/orbital/l_orbital_probe/l_orbital_probe_closed.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_probe\l_orbital_probe.json
+/pa/units/legion/orbital/l_orbital_factory/l_orbital_factory_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_factory\l_orbital_factory.json
+/pa/units/legion/land/l_scout_bot/l_scout_bot_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_scout_bot\l_scout_bot.json
+/pa/units/legion/orbital/l_delta_v_engine/l_delta_v_engine_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_delta_v_engine\l_delta_v_engine.json
+/pa/units/legion/orbital/l_orbital_fabrication_bot/l_orbital_fabrication_bot_closed.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_fabrication_bot\l_orbital_fabrication_bot.json
+/pa/units/legion/sea/l_naval_factory/l_naval_factory_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory\l_naval_factory.json
+/pa/units/legion/land/l_hover_laser/l_hover_laser_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_hover_laser\l_hover_laser.json
+/pa/units/vanilla/land/bot_orbital/bot_orbital_ammo.json not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_orbital\l_bot_orbital_tool_weapon.json
+/pa/units/legion/land/l_sniper_bot/l_sniper_bot_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_sniper_bot\l_sniper_bot.json
+/pa/units/legion/land/l_fabrication_bot_adv/l_fabrication_bot_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot_adv\l_fabrication_bot_adv.json
+/pa/units/legion/air/l_air_factory_adv/l_air_factory_adv_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory_adv\l_air_factory_adv.json
+/pa/units/legion/sea/l_torpedo_launcher_adv/l_torpedo_launcher_adv_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_torpedo_launcher_adv\l_torpedo_launcher_adv.json
+/pa/units/commanders/l_rockteeth/l_rockteeth_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_rockteeth\l_rockteeth.json
+/pa/units/legion/air/l_firestarter/l_firestarter_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_firestarter\l_firestarter.json
+/pa/units/legion/land/l_mex/l_metal_extractor_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_mex\l_mex.json
+/pa/units/legion/air/l_air_factory_adv/l_air_factory_adv_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory_adv\l_air_factory_adv.json
+/pa/units/legion/orbital/l_radar_satellite/l_radar_satellite_closed.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_radar_satellite\l_radar_satellite.json
+/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_nuke_launcher\l_nuke_launcher.json
+/pa/units/vanilla/sea/torpedo/torpedo.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\torpedo\torpedo.json
+/pa/effects/textures/particles/bullet_shell_texture.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_riot_bot\bullet_shells_left.pfx
+/pa/units/legion/land/l_bot_factory_adv/l_bot_factory_adv_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory_adv\l_bot_factory_adv.json
+/ui/main/shared/img/commanders/thumbs/img_l_cyclops_thumb.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
+/pa/units/legion/land/l_bot_aa/l_bot_aa_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa\l_bot_aa.json
+/pa/units/vanilla/air/solar_drone/solar_drone_muzzle_flash.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\air\solar_drone\solar_drone.json
+/pa/units/legion/land/l_riot_bot/l_riot_bot_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_riot_bot\l_riot_bot.json
+/ui/main/shared/img/commanders/img_l_wasushi.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
+/pa/units/legion/land/l_bot_heavy/l_bot_heavy_anim_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_heavy\l_bot_heavy.json
+/pa/units/legion/air/l_air_factory_adv/l_air_factory_adv_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory_adv\l_air_factory_adv.json
+/pa/units/vanilla/land/bot_skirmish/bot_skirmish_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\bot_skirmish\bot_skirmish.json
+/pa/effects/fbx/particles/l_energy_rod_diffuse.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_artillery_long\back_hatch.pfx
+/pa/units/legion/air/l_air_factory/l_air_factory_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory\l_air_factory.json
+/pa/units/legion/land/l_assault_bot/l_assault_bot_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_assault_bot\l_assault_bot.json
+/pa/units/legion/land/l_assault_bot/l_assault_bot_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_assault_bot\l_assault_bot.json
+/pa/units/legion/land/l_bot_morty_adv/l_bot_morty_adv_anim_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_morty_adv\l_bot_morty_adv.json
+/pa/units/legion/sea/l_naval_factory/l_naval_factory_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory\l_naval_factory.json
+/pa/units/legion/land/l_nuke_launcher/l_nuke_launcher_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_nuke_launcher\l_nuke_launcher.json
+/pa/units/legion/land/l_bot_bomb/l_bot_bomb_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_bomb\l_bot_bomb.json
+/pa/units/commanders/l_cyclops/l_cyclops_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
+/ui/main/shared/img/commanders/profiles/profile_l_cyclops.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_cyclops\l_cyclops.json
+/pa/units/commanders/l_wasushi/l_wasushi_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_wasushi\l_wasushi.json
+/pa/units/vanilla/land/bot_sniper/bot_sniper_beam.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\air\support_platform\support_platform_interception_ammo.json
+/pa/effects/fbx/particles/l_vehicle_factory_adv_energy_platform.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\energy_platform_adv.pfx
+/pa/units/legion/orbital/l_orbital_factory/l_orbital_factory_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_factory\l_orbital_factory.json
+/pa/units/commanders/l_overwatch/l_overwatch_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
+/pa/units/legion/air/l_air_carrier/l_drone/l_drone_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_carrier\l_drone\l_drone.json
+/pa/units/legion/orbital/l_titan_orbital/l_titan_orbital_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_titan_orbital\l_titan_orbital.json
+/pa/units/commanders/l_overwatch/l_overwatch_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
+/pa/units/legion/land/l_bot_factory_adv/l_bot_factory_adv_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_factory_adv\l_bot_factory_adv.json
+/pa/units/legion/land/l_bot_artillery/l_bot_artillery_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_artillery\l_bot_artillery.json
+/pa/units/legion/air/l_air_factory/l_air_factory_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_factory\l_air_factory.json
+/pa/units/vanilla/land/fabrication_bot_combat/fabrication_bot_combat_anim_runX.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat\fabrication_bot_combat.json
+/pa/units/vanilla/air/base_flyer/base_flyer_death_t2.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_air_carrier\l_air_carrier.json
+/pa/units/legion/land/l_flame_bot/l_flame_bot_anim_aimUp.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_flame_bot\l_flame_bot.json
+/pa/effects/fbx/particles/l_energy_rod.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_artillery_long\back_hatch.pfx
+/pa/units/legion/land/l_scout_bot/l_scout_bot_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_scout_bot\l_scout_bot.json
+/pa/units/vanilla/land/fabrication_bot_combat/fabrication_bot_combat_anim_death01X.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\land\fabrication_bot_combat\fabrication_bot_combat.json
+/pa/units/vanilla/air/missile/missile.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\ammo\base_missiles\base_missile.json
+/pa/units/legion/air/l_flying_teleporter/l_flying_teleporter_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\air\l_flying_teleporter\l_flying_teleporter.json
+/pa/units/legion/land/l_vehicle_factory/l_vehicle_factory_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory\l_vehicle_factory.json
+/pa/units/legion/land/l_vehicle_factory_adv/l_vehicle_factory_adv_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_vehicle_factory_adv\l_vehicle_factory_adv.json
+/pa/units/legion/land/l_fabrication_bot/l_fabrication_bot_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_fabrication_bot\l_fabrication_bot.json
+/pa/units/legion/orbital/l_orbital_railgun/l_orbital_railgun_open.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_railgun\l_orbital_railgun.json
+/pa/units/legion/orbital/l_mining_platform/l_mining_platform_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_mining_platform\l_mining_platform.json
+/pa/units/legion/land/l_bot_aa_adv/l_bot_aa_adv_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_bot_aa_adv\l_bot_aa_adv.json
+/pa/units/legion/land/l_air_defense/l_air_defense_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_air_defense\l_air_defense.json
+/ui/main/shared/img/commanders/thumbs/img_l_overwatch_thumb.png not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\commanders\l_overwatch\l_overwatch.json
+/pa/units/legion/sea/l_sea_tank/l_sea_tank_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_sea_tank\l_sea_tank.json
+/pa/effects/textures/particles/softerdot.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_sea_tank\ram_hit.pfx
+/pa/units/vanilla/air/gunship/gunship_muzzle_flash.pfx not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\vanilla\air\gunship\gunship.json
+/pa/effects/fbx/particles/energy_rods.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\land\l_sniper_tank\energy_rods.pfx
+/pa/units/legion/sea/l_naval_factory_adv/l_naval_factory_adv_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\sea\l_naval_factory_adv\l_naval_factory_adv.json
+/pa/units/legion/orbital/l_orbital_factory/l_orbital_factory_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_factory\l_orbital_factory.json
+/pa/units/legion/orbital/l_orbital_dropper/l_orbital_dropper_build.papa not found, referenced by:
+     tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\units\legion\orbital\l_orbital_dropper\l_orbital_dropper.json
+-- JSON ERRORS
+tmp-mods\com.stuart98.po.server.dev\Planetary-Obliteration-Server---Release-po.dev.server_prealpha_rel.3\com.stuart98.po.server\pa\effects\specs\default_explosion_bot_t2.pfx:680:2 error: expected 'EOF' but got '{' instead
+ 677|            "endDistance": 3000
+ 678|        }
+ 679|    ]
+ 680|}{
+    | ^ expected 'EOF' but got '{' instead
+ 681|    "emitters": [
+
+===== com.pa.burntcustard.bBoomBotWars =====[ 4 ]
+-- FILES
 /pa/units/land/artillery_long/artillery_long_anim_aimUp.papa not found, referenced by:
-     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\land\artillery_long\artillery_long.json
+     tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\artillery_long\artillery_long.json
+/pa/units/land/base_unit/base_unit.json not found, referenced by:
+     tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\unit_list.json
+metal/s. not found, referenced by:
+     tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\artillery_long\artillery_long.json
+-- JSON ERRORS
+tmp-mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\vehicle_factory_adv\vehicle_factory_adv.json:337:1 error: expected 'EOF' but got '}' instead
+ 334|    "collision_layers":"WL_AnyHorizontalGroundOrWaterSurface"
+ 335|  }
+ 336|}
+ 337|} 
+    |^ expected 'EOF' but got '}' instead
+
 ===== com.pac.domdom.laser_unit_effects =====[ 1 ]
+-- FILES
 /mod/slammer/slammer_muzzle_flash.json not found, referenced by:
      tmp-mods\com.pac.domdom.laser_unit_effects\com.pac.domdom.laser_unit_effects-1.1.3\pa\units\land\assault_bot_adv\assault_bot_adv.json
-===== MysticalFists.AIS.Cheats =====[ 66 ]
-/pa/hackedunits/commanders/imperial_aryst0krat/imperial_aryst0krat.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/land/avatar_factory/avatar_factory.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/sea/base_ship/base_ship.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_armalisk/quad_armalisk.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_calyx/quad_calyx.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tank_aeson/tank_aeson.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/land/bot_aa/bot_aa.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_spiderofmean/quad_spiderofmean.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/land/base_bot/base_bot.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_betadyne/raptor_betadyne.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_aceal/imperial_aceal.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/air/base_flyer/base_flyer.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_stelarch/imperial_stelarch.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/land/base_vehicle/base_vehicle.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_enzomatrix/imperial_enzomatrix.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_thechessknight/imperial_thechessknight.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_base/raptor_base.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_beast/raptor_beast.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_base/imperial_base.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_chronoblip/imperial_chronoblip.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_tokamaktech/quad_tokamaktech.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_gambitdfa/quad_gambitdfa.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/orbital/base_orbital/base_orbital.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_spartandano/quad_spartandano.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_invictus/imperial_invictus.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_sacrificiallamb/quad_sacrificiallamb.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_able/imperial_able.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_iwmiked/raptor_iwmiked.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/orbital/base_orbital_structure/base_orbital_structure.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_stickman9000/raptor_stickman9000.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/avatar/avatar.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_potbelly79/quad_potbelly79.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_alpha/imperial_alpha.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_osiris/quad_osiris.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_delta/imperial_delta.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_theflax/quad_theflax.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_centurion/raptor_centurion.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_twoboots/quad_twoboots.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_theta/imperial_theta.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_mjon/imperial_mjon.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_fiveleafclover/imperial_fiveleafclover.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/base_commander/base_commander.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_gamma/imperial_gamma.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_sangudo/imperial_sangudo.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_beniesk/raptor_beniesk.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_kapowaz/imperial_kapowaz.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_seniorhelix/imperial_seniorhelix.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/land/base_structure/base_structure.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_gnugfur/imperial_gnugfur.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_ajax/quad_ajax.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_majuju/raptor_majuju.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_rallus/raptor_rallus.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_xenosentryprime/quad_xenosentryprime.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tank_banditks/tank_banditks.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tank_base/tank_base.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_progenitor/imperial_progenitor.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_xinthar/quad_xinthar.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_shadowdaemon/quad_shadowdaemon.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_toddfather/imperial_toddfather.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_mobiousblack/quad_mobiousblack.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_diremachine/raptor_diremachine.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_raventhornn/quad_raventhornn.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_nemicus/raptor_nemicus.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_zaazzaa/raptor_zaazzaa.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_base/quad_base.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/land/bot_spider_adv/bot_spider_adv.json not found, referenced by:
-     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+-- JSON ERRORS
 ===== com.pa.Beta57047.rebalance =====[ 7 ]
+-- FILES
 /pa/units/orbital/orbital_egg/orbital_egg.json not found, referenced by:
      tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\unit_list.json
-/pa/units/air/fighter_adv/fighter_adv_anim_landed.papa not found, referenced by:
-     tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\air\fighter_adv\fighter_adv.json
 /pa/units/land/artillery_long/artillery_long_anim_aimUp.papa not found, referenced by:
      tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\land\artillery_long\artillery_long.json
 /pa/units/sea/fabrication_sub/fabrication_sub.papa not found, referenced by:
      tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\sea\fabrication_sub\fabrication_sub.json
-/pa/units/sea/sea_scout/sea_scout_anim_idle.papa not found, referenced by:
-     tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\sea\sea_scout\sea_scout.json
-/pa/units/sea/sonar_adv/sonar_adv.json not found, referenced by:
-     tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\unit_list.json
+/pa/units/air/fighter_adv/fighter_adv_anim_landed.papa not found, referenced by:
+     tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\air\fighter_adv\fighter_adv.json
 /pa/units/sea/sonar/sonar.json not found, referenced by:
      tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\unit_list.json
-===== com.stuart98.gatitans =====[ 38 ]
-/pa/units/land/megabot/megabot_missile_ammo.json not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_tactical_missile\bot_tactical_missile_tool_antidrop.json
-/pa/units/land/bot_aa_adv/bot_aa_adv_anim_idleX.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_closed.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\orbital\deep_space_radar_basic\deep_space_radar_basic.json
-/pa/units/land/bot_arty/bot_arty_anim_walkX.papa not found, referenced by:
+/pa/units/sea/sonar_adv/sonar_adv.json not found, referenced by:
+     tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\unit_list.json
+/pa/units/sea/sea_scout/sea_scout_anim_idle.papa not found, referenced by:
+     tmp-mods\com.pa.Beta57047.rebalance\com.pa.Beta57047.rebalance-master\pa\units\sea\sea_scout\sea_scout.json
+-- JSON ERRORS
+===== com.pa.killerkiwijuice.antlyf =====[ 3 ]
+-- FILES
+/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa not found, referenced by:
+     tmp-mods\com.pa.killerkiwijuice.antlyf\Ant4Lyf-Mod-master\com.pa.killerkiwijuice.antlyf\pa\units\land\artillery_long\artillery_long.json
+/pa/units/land/base_unit/base_unit.json not found, referenced by:
+     tmp-mods\com.pa.killerkiwijuice.antlyf\Ant4Lyf-Mod-master\com.pa.killerkiwijuice.antlyf\pa\units\unit_list.json
+-- JSON ERRORS
+tmp-mods\com.pa.killerkiwijuice.antlyf\Ant4Lyf-Mod-master\com.pa.killerkiwijuice.antlyf\pa\effects\specs\CPlosion.pfx:140:12 warning: ill-formed number
+ 137|		"velocity": 0.1,
+ 138|		"rotationRange": 1.14,
+ 139|		"sizeX": 1.6,
+ 140|		"sizeY": 1.,
+    |		         ^~ ill-formed number
+ 141|		"lifetime": 3.0,
+
+===== MysticalFists.AIS.Cheats =====[ 66 ]
+-- FILES
+/pa/hackedunits/commanders/raptor_iwmiked/raptor_iwmiked.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_theta/imperial_theta.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_rallus/raptor_rallus.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/avatar/avatar.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/land/bot_spider_adv/bot_spider_adv.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_xinthar/quad_xinthar.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_mobiousblack/quad_mobiousblack.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/land/base_bot/base_bot.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_nemicus/raptor_nemicus.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_aceal/imperial_aceal.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_gamma/imperial_gamma.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tank_base/tank_base.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_kapowaz/imperial_kapowaz.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_tokamaktech/quad_tokamaktech.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_beast/raptor_beast.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_raventhornn/quad_raventhornn.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_stelarch/imperial_stelarch.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_able/imperial_able.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/orbital/base_orbital/base_orbital.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_zaazzaa/raptor_zaazzaa.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_mjon/imperial_mjon.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/land/bot_aa/bot_aa.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_shadowdaemon/quad_shadowdaemon.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_gambitdfa/quad_gambitdfa.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_osiris/quad_osiris.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_ajax/quad_ajax.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_stickman9000/raptor_stickman9000.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_centurion/raptor_centurion.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/land/base_vehicle/base_vehicle.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_gnugfur/imperial_gnugfur.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_beniesk/raptor_beniesk.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_sangudo/imperial_sangudo.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_calyx/quad_calyx.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tank_banditks/tank_banditks.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_sacrificiallamb/quad_sacrificiallamb.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/land/avatar_factory/avatar_factory.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_theflax/quad_theflax.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/base_commander/base_commander.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_alpha/imperial_alpha.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/land/base_structure/base_structure.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_delta/imperial_delta.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_progenitor/imperial_progenitor.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/air/base_flyer/base_flyer.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_base/quad_base.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tank_aeson/tank_aeson.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_armalisk/quad_armalisk.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_diremachine/raptor_diremachine.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_spartandano/quad_spartandano.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/orbital/base_orbital_structure/base_orbital_structure.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_betadyne/raptor_betadyne.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_thechessknight/imperial_thechessknight.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_majuju/raptor_majuju.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_potbelly79/quad_potbelly79.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_enzomatrix/imperial_enzomatrix.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_chronoblip/imperial_chronoblip.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_aryst0krat/imperial_aryst0krat.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_twoboots/quad_twoboots.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/sea/base_ship/base_ship.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_spiderofmean/quad_spiderofmean.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_toddfather/imperial_toddfather.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_base/imperial_base.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_fiveleafclover/imperial_fiveleafclover.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_xenosentryprime/quad_xenosentryprime.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_invictus/imperial_invictus.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_base/raptor_base.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_seniorhelix/imperial_seniorhelix.json not found, referenced by:
+     tmp-mods\MysticalFists.AIS.Cheats\MysticalFists.AIS.Cheats-master\pa\units\unit_list.json
+-- JSON ERRORS
+===== com.stuart98.gatitans =====[ 39 ]
+-- FILES
+/pa/units/land/bot_arty/bot_arty_anim_idleX.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_arty\bot_arty.json
 /pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_runX.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat\fabrication_bot_combat.json
-/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_start.papa not found, referenced by:
+/pa/units/land/amphibious_fabricator/Bfab21_anim_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\amphibious_fabricator\amphibious_fabricator.json
+/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_closed.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\orbital\deep_space_radar_basic\deep_space_radar_basic.json
-/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_end.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\orbital\deep_space_radar_basic\deep_space_radar_basic.json
-/pa/units/land/bot_aa_adv/bot_aa_adv_anim_aimDownX.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_loop.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\orbital\deep_space_radar_basic\deep_space_radar_basic.json
-/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01X.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
-/pa/units/sea/sonar_adv/sonar_adv_anim_work.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\sea\sonar_adv\sonar_adv.json
+/pa/units/land/hover_artillery/Vartillery23_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\hover_artillery\hover_artillery.json
+/pa/units/land/tank_orbital/Vao13_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\tank_orbital\tank_orbital.json
 /pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_runX.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
 /pa/units/land/raptor_bot_1/raptor_bot_1_anim_walkX.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\raptor_bot_1\raptor_bot_1.json
-/pa/units/land/bot_orbital/Bao32_anim_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_orbital\bot_orbital.json
-/pa/units/land/bot_arty/bot_arty_anim_idleX.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_arty\bot_arty.json
+/pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_run.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_raider\bot_raider.json
+/pa/units/land/bot_aa_adv/bot_aa_adv_anim_aimDownX.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
+/pa/units/land/bot_artillery/bot_artillery_anim_aimDown.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_mortar\bot_mortar.json
+/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01X.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
 /pa/units/land/hover_aa/Vaa22_anim_idle.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\hover_aa\hover_aa.json
-/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_death01X.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat\fabrication_bot_combat.json
-/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_idleX.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat\fabrication_bot_combat.json
-/pa/units/land/amphibious_fabricator/Bfab21_anim_walk.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\amphibious_fabricator\amphibious_fabricator.json
-/pa/units/land/amphibious_fabricator/Bfab21_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\amphibious_fabricator\amphibious_fabricator.json
 /pa/units/land/bot_aa_adv/bot_aa_adv_anim_runX.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
+/pa/units/land/bot_aa_adv/bot_aa_adv_anim_idleX.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
 /pa/units/land/bot_aa_adv/bot_aa_adv_anim_death01X.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/sea/battlecruiser/nassault23a_anim_fire.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\sea\battlecruiser\battlecruiser.json
 /pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_aimUp.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_raider\bot_raider.json
-/pa/units/land/bot_artillery/bot_artillery_anim_aimUp.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_mortar\bot_mortar.json
 /pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idleX.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat_adv\fabrication_bot_combat_adv.json
-/pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_run.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_raider\bot_raider.json
+/pa/units/sea/sonar_adv/sonar_adv_anim_work.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\sea\sonar_adv\sonar_adv.json
+/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_end.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\orbital\deep_space_radar_basic\deep_space_radar_basic.json
+/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_idleX.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat\fabrication_bot_combat.json
 /pa/units/land/raptor_bot_1/raptor_bot_1_anim_idleX.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\raptor_bot_1\raptor_bot_1.json
-/pa/units/land/bot_artillery/bot_artillery_anim_aimDown.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_mortar\bot_mortar.json
-/pa/units/air/fighter_beam/fighter_beam_beam_hit.pfx not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\air\fighter_beam\fighter_beam_ammo.json
-/pa/units/sea/sonar/sonar_anim_work.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\sea\sonar\sonar.json
-/pa/units/land/tank_orbital/Vao13_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\tank_orbital\tank_orbital.json
-/pa/units/land/bot_aa_adv/bot_aa_adv_anim_aimUpX.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
-/pa/units/land/bot_orbital/Bao32_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_orbital\bot_orbital.json
-/pa/units/land/bot_artillery/bot_artillery_anim_death01.papa not found, referenced by:
+/pa/units/land/bot_artillery/bot_artillery_anim_run.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_mortar\bot_mortar.json
 /pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_death01.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_raider\bot_raider.json
-/pa/units/land/bot_artillery/bot_artillery_anim_run.papa not found, referenced by:
+/pa/units/land/bot_arty/bot_arty_anim_walkX.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_arty\bot_arty.json
+/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_loop.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\orbital\deep_space_radar_basic\deep_space_radar_basic.json
+/pa/units/land/bot_aa_adv/bot_aa_adv_anim_aimUpX.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_aa_adv\bot_aa_adv.json
+/pa/units/land/megabot/megabot_missile_ammo.json not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_tactical_missile\bot_tactical_missile_tool_antidrop.json
+/pa/units/orbital/deep_space_radar_basic/orbital_radar_basic_start.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\orbital\deep_space_radar_basic\deep_space_radar_basic.json
+/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_death01X.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\fabrication_bot_combat\fabrication_bot_combat.json
+/pa/units/land/bot_artillery/bot_artillery_anim_aimUp.papa not found, referenced by:
      tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_mortar\bot_mortar.json
-/pa/units/land/hover_artillery/Vartillery23_anim_idle.papa not found, referenced by:
-     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\hover_artillery\hover_artillery.json
+/pa/units/land/bot_artillery/bot_artillery_anim_death01.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_mortar\bot_mortar.json
+/pa/units/land/bot_orbital/Bao32_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_orbital\bot_orbital.json
+/pa/units/sea/battlecruiser/nassault23a_anim_fire.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\sea\battlecruiser\battlecruiser.json
+/pa/units/sea/sonar/sonar_anim_work.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\sea\sonar\sonar.json
+/pa/units/land/bot_orbital/Bao32_anim_walk.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\bot_orbital\bot_orbital.json
+/pa/units/air/fighter_beam/fighter_beam_beam_hit.pfx not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\hover_aa\hover_aa_ammo.json
+/pa/units/land/amphibious_fabricator/Bfab21_anim_idle.papa not found, referenced by:
+     tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\units\land\amphibious_fabricator\amphibious_fabricator.json
+-- JSON ERRORS
+tmp-mods\com.stuart98.gatitans\com.stuart98.gaserver-imanidiot\com.stuart98.gatitans\pa\effects\specs\default_explosion_bot_t2.pfx:680:2 error: expected 'EOF' but got '{' instead
+ 677|            "endDistance": 3000
+ 678|        }
+ 679|    ]
+ 680|}{
+    | ^ expected 'EOF' but got '{' instead
+ 681|    "emitters": [
+
+===== com.pa.killerkiwijuice.doxlyf =====[ 6 ]
+-- FILES
+/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa not found, referenced by:
+     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\land\artillery_long\artillery_long.json
+/pa/units/land/artillery_Xlong/artillery_Xlong.json not found, referenced by:
+     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\unit_list.json
+/pa/units/land/base_unit/base_unit.json not found, referenced by:
+     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\unit_list.json
+/pa/units/land/assault_bot/assault_bot_squisher_ammo.json not found, referenced by:
+     tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\land\assault_bot_adv\assault_bot_squisher_tool_weapon.json
+-- JSON ERRORS
+tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\effects\specs\CPlosion.pfx:140:12 warning: ill-formed number
+ 137|		"velocity": 0.1,
+ 138|		"rotationRange": 1.14,
+ 139|		"sizeX": 1.6,
+ 140|		"sizeY": 1.,
+    |		         ^~ ill-formed number
+ 141|		"lifetime": 3.0,
+
+tmp-mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\land\bot_factory\bot_factory.json:226:1 error: expected 'EOF' but got '}' instead
+ 223|    "collision_layers":"WL_AnyHorizontalGroundOrWaterSurface"
+ 224|  }
+ 225|}
+ 226|} 
+    |^ expected 'EOF' but got '}' instead
+
 ===== MysticalFists.AIST2.Cheats =====[ 64 ]
-/pa/hackedunits/commanders/imperial_aryst0krat/imperial_aryst0krat.json not found, referenced by:
+-- FILES
+/pa/hackedunits/commanders/raptor_iwmiked/raptor_iwmiked.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/sea/base_ship/base_ship.json not found, referenced by:
+/pa/hackedunits/commanders/imperial_theta/imperial_theta.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_armalisk/quad_armalisk.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_calyx/quad_calyx.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tank_aeson/tank_aeson.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_potbelly79/quad_potbelly79.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_betadyne/raptor_betadyne.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_aceal/imperial_aceal.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_stelarch/imperial_stelarch.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_enzomatrix/imperial_enzomatrix.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_thechessknight/imperial_thechessknight.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_base/raptor_base.json not found, referenced by:
+/pa/hackedunits/commanders/raptor_rallus/raptor_rallus.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
 /pa/hackedunits/commanders/avatar/avatar.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_base/imperial_base.json not found, referenced by:
+/pa/hackedunits/commanders/quad_xinthar/quad_xinthar.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_chronoblip/imperial_chronoblip.json not found, referenced by:
+/pa/hackedunits/commanders/quad_mobiousblack/quad_mobiousblack.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_tokamaktech/quad_tokamaktech.json not found, referenced by:
+/pa/hackedunits/commanders/raptor_nemicus/raptor_nemicus.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_gambitdfa/quad_gambitdfa.json not found, referenced by:
+/pa/hackedunits/commanders/imperial_aceal/imperial_aceal.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_spartandano/quad_spartandano.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_invictus/imperial_invictus.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_sacrificiallamb/quad_sacrificiallamb.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_able/imperial_able.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_iwmiked/raptor_iwmiked.json not found, referenced by:
+/pa/hackedunits/commanders/imperial_gamma/imperial_gamma.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
 /pa/hackedunits/commanders/tutorial_player_commander/tutorial_player_commander.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tutorial_ai_commander_2/tutorial_ai_commander_2.json not found, referenced by:
+/pa/hackedunits/commanders/tank_base/tank_base.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_mjon/imperial_mjon.json not found, referenced by:
+/pa/hackedunits/commanders/raptor_zaazzaa/raptor_zaazzaa.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_stickman9000/raptor_stickman9000.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_nefelpitou/raptor_nefelpitou.json not found, referenced by:
+/pa/hackedunits/commanders/quad_tokamaktech/quad_tokamaktech.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
 /pa/hackedunits/commanders/raptor_beast/raptor_beast.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
 /pa/hackedunits/commanders/quad_raventhornn/quad_raventhornn.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_alpha/imperial_alpha.json not found, referenced by:
+/pa/hackedunits/commanders/imperial_stelarch/imperial_stelarch.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_majuju/raptor_majuju.json not found, referenced by:
+/pa/hackedunits/commanders/imperial_able/imperial_able.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_delta/imperial_delta.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_theflax/quad_theflax.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_centurion/raptor_centurion.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_twoboots/quad_twoboots.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_theta/imperial_theta.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_spiderofmean/quad_spiderofmean.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_fiveleafclover/imperial_fiveleafclover.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_osiris/quad_osiris.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_xenosentryprime/quad_xenosentryprime.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_gamma/imperial_gamma.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_sangudo/imperial_sangudo.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_beniesk/raptor_beniesk.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_seniorhelix/imperial_seniorhelix.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_gnugfur/imperial_gnugfur.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_ajax/quad_ajax.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tutorial_titan_commander/tutorial_titan_commander.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_rallus/raptor_rallus.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/base_commander/base_commander.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tank_banditks/tank_banditks.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tank_base/tank_base.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_progenitor/imperial_progenitor.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_xinthar/quad_xinthar.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_shadowdaemon/quad_shadowdaemon.json not found, referenced by:
-     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_toddfather/imperial_toddfather.json not found, referenced by:
+/pa/hackedunits/commanders/imperial_mjon/imperial_mjon.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
 /pa/hackedunits/commanders/tutorial_ai_commander_3/tutorial_ai_commander_3.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_mobiousblack/quad_mobiousblack.json not found, referenced by:
+/pa/hackedunits/commanders/quad_shadowdaemon/quad_shadowdaemon.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_diremachine/raptor_diremachine.json not found, referenced by:
+/pa/hackedunits/commanders/quad_gambitdfa/quad_gambitdfa.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/imperial_kapowaz/imperial_kapowaz.json not found, referenced by:
+/pa/hackedunits/commanders/quad_osiris/quad_osiris.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_nemicus/raptor_nemicus.json not found, referenced by:
+/pa/hackedunits/commanders/quad_ajax/quad_ajax.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/raptor_zaazzaa/raptor_zaazzaa.json not found, referenced by:
+/pa/hackedunits/commanders/raptor_stickman9000/raptor_stickman9000.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/quad_base/quad_base.json not found, referenced by:
+/pa/hackedunits/commanders/raptor_centurion/raptor_centurion.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-/pa/hackedunits/commanders/tutorial_ai_commander/tutorial_ai_commander.json not found, referenced by:
+/pa/hackedunits/commanders/imperial_gnugfur/imperial_gnugfur.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_beniesk/raptor_beniesk.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_sangudo/imperial_sangudo.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_progenitor/imperial_progenitor.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_calyx/quad_calyx.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tank_banditks/tank_banditks.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_sacrificiallamb/quad_sacrificiallamb.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_theflax/quad_theflax.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/base_commander/base_commander.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tutorial_ai_commander_2/tutorial_ai_commander_2.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_enzomatrix/imperial_enzomatrix.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
 /pa/hackedunits/commanders/raptor_enderstryke71/raptor_enderstryke71.json not found, referenced by:
      tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
-===== com.heiz.aurora_artyUI =====[ 1 ]
-/pa/effects/specs/default_commander_explosion_air_ent.pfx not found, referenced by:
-     tmp-mods\com.heiz.aurora_artyUI\com.heiz.aurora_artyUI-1.8\pa\units\orbital\orbital_armageddon\orbital_armageddon_ammo.json
-[Finished in 104.2s]
+/pa/hackedunits/commanders/imperial_delta/imperial_delta.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_nefelpitou/raptor_nefelpitou.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_kapowaz/imperial_kapowaz.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_base/quad_base.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tank_aeson/tank_aeson.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_armalisk/quad_armalisk.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_diremachine/raptor_diremachine.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_spartandano/quad_spartandano.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_betadyne/raptor_betadyne.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_thechessknight/imperial_thechessknight.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_majuju/raptor_majuju.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_alpha/imperial_alpha.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_potbelly79/quad_potbelly79.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tutorial_titan_commander/tutorial_titan_commander.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/tutorial_ai_commander/tutorial_ai_commander.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_chronoblip/imperial_chronoblip.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_aryst0krat/imperial_aryst0krat.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_twoboots/quad_twoboots.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/sea/base_ship/base_ship.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_spiderofmean/quad_spiderofmean.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_toddfather/imperial_toddfather.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_base/imperial_base.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_fiveleafclover/imperial_fiveleafclover.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/quad_xenosentryprime/quad_xenosentryprime.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_invictus/imperial_invictus.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/raptor_base/raptor_base.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+/pa/hackedunits/commanders/imperial_seniorhelix/imperial_seniorhelix.json not found, referenced by:
+     tmp-mods\MysticalFists.AIST2.Cheats\MysticalFists.AIST2.Cheats-master\pa\units\unit_list.json
+-- JSON ERRORS
