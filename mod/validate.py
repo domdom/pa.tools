@@ -5,14 +5,14 @@ from . import pajson
 
 class ModIssues:
     def __init__(self):
-        self.missing = {}
+        self.missingFiles = {}
         self.parseErrors = {}
 
     def missingFile(self, missingFile, refercingFile):
-        if missingFile in self.missing:
-            self.missing[missingFile].add(refercingFile)
+        if missingFile in self.missingFiles:
+            self.missingFiles[missingFile].add(refercingFile)
         else:
-            self.missing[missingFile] = {refercingFile}
+            self.missingFiles[missingFile] = {refercingFile}
 
     def invalidJson(self, jsonFile, parsingErrors):
         if jsonFile in self.parseErrors:
@@ -23,7 +23,7 @@ class ModIssues:
     def getJsonErrorCount(self):
         return sum([len(x) for x in self.parseErrors.values()])
     def getMissingFileCount(self):
-        return len(self.missing)
+        return len(self.missingFiles)
 
 
 
