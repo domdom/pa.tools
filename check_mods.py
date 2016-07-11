@@ -9,7 +9,7 @@ import json
 temp_mod_dir = './tmp/mods'
 temp_issue_dir = './tmp/issues'
 url = "https://pamm-mereth.rhcloud.com/api/mod"
-api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
+# api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
 
 # download all the mods (maybe compare to the cache?)
 # validate each mod
@@ -107,6 +107,25 @@ def _validate_mods(api_mods):
     print('------------------ DONE')
 
 
-_download_mods(api_mods)
-_validate_mods(api_mods)
+# _download_mods(api_mods)
+# _validate_mods(api_mods)
+
+api_mods = [{'identifier':'com.pa.domdom.laser_unit_effects'}]
+
+for i, mod in enumerate(api_mods):
+    mod_id = mod['identifier']
+    if 'com.pa.domdom.laser' not in mod_id: continue
+
+    mod_path = os.path.join(temp_mod_dir, mod_id)
+
+    from mod.checker import Checker
+
+    checker = Checker()
+    checker.check(mod_path)
+    checker.printReport()
+
+
+
+
+
 
