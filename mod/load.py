@@ -10,6 +10,8 @@ def _strip_leading_slashes(path):
     return path
 
 def _join(path1, path2):
+    if path1 is None or path2 is None:
+        return None
     return join(path1, _strip_leading_slashes(path2))
 
 class Loader:
