@@ -62,7 +62,6 @@ class Checker:
 
                 'effect': 'effectss',
                 'live-game': 'gameplay',
-
             }
             for item in category:
                 if not isinstance(item, str):
@@ -85,9 +84,128 @@ class Checker:
             self.addInfoIssue('Mandatory field "build" is missing or empty.')
 
 
-
-        
-
+       
+"""
+143 in-game
+129 ui
+52 titans
+45 Texture
+28 shader
+27 server-mod
+26 maps
+24 effects
+21 units
+21 client-mod
+17 lobby
+16 map
+16 planets
+15 planet
+15 system
+15 pack
+15 systems
+13 Strategic-icons
+13 colours
+12 explosion
+12 galactic-war
+11 system-editor
+8 biome
+7 classic
+7 cheat
+7 framework
+7 game-mode
+6 bugfix
+6 metal
+6 modding
+6 hearts
+5 Strategic Icons
+5 strategic-icons
+5 sandbox
+5 chat
+4 commander
+4 balance
+4 ai
+4 reclaim
+4 uberbar
+3 gameplay
+3 appearance
+3 Balance
+3 energy
+3 main-menu
+2 Framework
+2 artillery
+2 UI
+2 bug-fix
+2 economy
+2 ai-skirmish
+2 racing
+2 strategic icons
+2 nuke
+2 system editor
+2 Units
+2 buildings
+2 particles
+2 settings
+2 Commander
+2 mex
+2 In-game
+2 player-guide
+2 Planets
+1 lana
+1 Tropical
+1 server
+1 Model
+1 ania
+1 anti
+1 the
+1 stars
+1 Metal
+1 bug-Fix
+1 replay browser
+1 Icon
+1 series
+1 game
+1 mod-help
+1 Projectiles
+1 Main-Menu
+1 naval
+1 Effects
+1 alerts
+1 Galactic-War
+1 scale
+1 construction
+1 sound
+1 filter
+1 antinuke
+1 client
+1 tweak
+1 Hotfix
+1 twitch
+1 tournaments
+1 landmines
+1 marshall
+1 chrono-cam
+1 Icons
+1 Water
+1 features
+1 violet
+1 anti-nuke
+1 combat
+1 system_editor
+1 reference
+1 selection
+1 Energy Plant
+1 performance
+1 violetania
+1 System Editor
+1 live-game
+1 Bugfix
+1 textures
+1 soundtrack
+1 trails
+1 Background
+1 wpmarshall
+1 pip
+"""
 
 
     def addInfoIssue(self, issue):
