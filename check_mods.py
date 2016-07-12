@@ -9,8 +9,21 @@ import json
 temp_mod_dir = './tmp/mods'
 temp_issue_dir = './tmp/issues'
 url = "https://pamm-mereth.rhcloud.com/api/mod"
-# api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
+api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
 
+from collections import defaultdict
+import operator
+
+counter = defaultdict(int)
+for mod in api_mods:
+    for tag in mod.get('category', []):
+        counter[tag.lower()] += 1
+
+sorted_x = reversed(sorted(counter.items(), key=operator.itemgetter(1)))
+for k, v in sorted_x:
+    print(v, k)
+
+exit()
 # download all the mods (maybe compare to the cache?)
 # validate each mod
 # print results

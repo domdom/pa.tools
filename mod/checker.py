@@ -53,160 +53,148 @@ class Checker:
         elif isinstance(category, list):
             redundant_keywords = set(['mod', 'client', 'client-mod', 'server', 'server-mod'])
             prefered_keyword_mapping = {
-                # maps
                 'map': 'maps',
                 'planet': 'maps',
                 'planets': 'maps',
                 'system': 'maps',
                 'systems': 'maps',
 
-                'effect': 'effectss',
+                'texture':'textures',
+                'unit': 'units',
+                'buildings':'units',
+                'particle': 'effects',
+                'effect': 'effects',
                 'live-game': 'gameplay',
+                'in-game': 'gameplay',
+                'strategic-icons': 'icons',
+                'strategic icons': 'icons',
+                'icon': 'icons',
+
+                'bug-fix': 'fix',
+                'bugfix': 'fix',
+                'hot-fix': 'fix',
+                'hotfix': 'fix'
             }
             for item in category:
                 if not isinstance(item, str):
                     self.addInfoIssue('ERROR: "category" array contains a non-string element: ' + str(item))
                 else:
-                    if item in redundant_keywords:
+                    if item.lower() in redundant_keywords:
                         self.addInfoIssue('WARNING: "category" array contains a redundant entry: '+ item +'. Please remove this entry.')
-                    if item in prefered_keyword_mapping:
-                        self.addInfoIssue('WARNING: "category" array contains a redundant entry: '+ item +'. Please use "' + prefered_keyword_mapping[item] + '" instead.')
-
-
-            if len(redundant_keywords & set(category)) > 0:
-
+                    if item.lower() in prefered_keyword_mapping:
+                        self.addInfoIssue('WARNING: "category" array contains a redundant entry: '+ item +'. Please use "' + prefered_keyword_mapping[item.lower()] + '" instead.')
         else:
             self.addInfoIssue('ERROR: "category" field must be an array of strings.')
 
-
+        
         # build field - string - manditory, build number
         if modinfo.get('build', '') == '':
             self.addInfoIssue('Mandatory field "build" is missing or empty.')
-
-
-       
 """
-143 in-game
-129 ui
+145 in-game
+131 ui
 52 titans
-45 Texture
+45 texture
 28 shader
 27 server-mod
 26 maps
-24 effects
-21 units
+25 effects
+23 units
 21 client-mod
+18 strategic-icons
+18 planets
 17 lobby
 16 map
-16 planets
+15 systems
+15 pack
 15 planet
 15 system
-15 pack
-15 systems
-13 Strategic-icons
 13 colours
+13 galactic-war
 12 explosion
-12 galactic-war
 11 system-editor
+9 framework
 8 biome
 7 classic
-7 cheat
-7 framework
 7 game-mode
-6 bugfix
-6 metal
-6 modding
+7 cheat
+7 metal
+7 balance
+7 bugfix
+7 strategic icons
+6 commander
 6 hearts
-5 Strategic Icons
-5 strategic-icons
+6 modding
 5 sandbox
 5 chat
-4 commander
-4 balance
-4 ai
+4 main-menu
 4 reclaim
+4 ai
 4 uberbar
+3 system editor
 3 gameplay
-3 appearance
-3 Balance
 3 energy
-3 main-menu
-2 Framework
-2 artillery
-2 UI
-2 bug-fix
-2 economy
-2 ai-skirmish
-2 racing
-2 strategic icons
-2 nuke
-2 system editor
-2 Units
-2 buildings
-2 particles
+3 bug-fix
+3 appearance
 2 settings
-2 Commander
+2 economy
+2 racing
 2 mex
-2 In-game
+2 artillery
 2 player-guide
-2 Planets
+2 particles
+2 buildings
+2 ai-skirmish
+2 nuke
 1 lana
-1 Tropical
-1 server
-1 Model
-1 ania
-1 anti
-1 the
-1 stars
-1 Metal
-1 bug-Fix
-1 replay browser
-1 Icon
-1 series
-1 game
-1 mod-help
-1 Projectiles
-1 Main-Menu
-1 naval
-1 Effects
-1 alerts
-1 Galactic-War
-1 scale
-1 construction
-1 sound
-1 filter
-1 antinuke
-1 client
 1 tweak
-1 Hotfix
 1 twitch
-1 tournaments
 1 landmines
-1 marshall
-1 chrono-cam
-1 Icons
-1 Water
-1 features
-1 violet
-1 anti-nuke
-1 combat
-1 system_editor
-1 reference
-1 selection
-1 Energy Plant
-1 performance
-1 violetania
-1 System Editor
-1 live-game
-1 Bugfix
-1 textures
-1 soundtrack
-1 trails
-1 Background
-1 wpmarshall
 1 pip
+1 features
+1 projectiles
+1 client
+1 game
+1 anti-nuke
+1 sound
+1 server
+1 performance
+1 energy plant
+1 icons
+1 combat
+1 violet
+1 alerts
+1 water
+1 tropical
+1 naval
+1 soundtrack
+1 mod-help
+1 the
+1 wpmarshall
+1 filter
+1 stars
+1 icon
+1 reference
+1 scale
+1 ania
+1 live-game
+1 violetania
+1 marshall
+1 selection
+1 chrono-cam
+1 replay browser
+1 system_editor
+1 construction
+1 antinuke
+1 trails
+1 anti
+1 background
+1 tournaments
+1 model
+1 hotfix
+1 series
+1 textures
 """
-
 
     def addInfoIssue(self, issue):
         self.modinfo_issues.append(issue)
