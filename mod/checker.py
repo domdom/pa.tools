@@ -1,29 +1,42 @@
 class Checker:
-    def __init__(self):
+    def __init__(self, mod_path):
+        self.mod_path = mod_path
+        self.mod_root = mod_path
         self.modinfo = None
         self.modinfo_issues = []
         self.file_issues = {}
         self.json_issues = {}
 
-    def check(self, mod_path):
+    def check(self):
         from .load import Loader
-        from os.path import join
+        from os.path import join, dirname
 
-        mod_root = _find_mod_root(mod_path)
+        self.mod_root = _find_mod_root(self.mod_path)
+        if self.mod_root is None:
+            self.addInfoIssue('FATAL: Could not find modinfo.json')
+            return
 
-        loader = Loader(mod_root)
+        loader = Loader(self.mod_root)
+
         modinfo_path = loader.resolveFile('/modinfo.json')
-
         if modinfo_path is None:
             self.addInfoIssue('FATAL: Could not find modinfo.json')
             return
 
-        modinfo = self.checkModinfo(modinfo_path, loader)
-
-        if modinfo is None:
+        self.checkModinfo(modinfo_path, loader)
+        if self.modinfo is None:
             return
 
-    
+        # construct loader for checking files
+        from .paths import PA_MEDIA_DIR
+
+        loader = Loader(PA_MEDIA_DIR)
+        loader.mount('/pa', '/pa_ex1')
+        loader.mount('/', self.mod_root)
+
+        self._find_missing_files(loader)
+
+
     def checkModinfo(self, modinfo_path, loader):
         modinfo, warnings = loader.loadJson(modinfo_path)
         self.addJsonIssue(modinfo_path, warnings)
@@ -114,11 +127,12 @@ class Checker:
         self.modinfo = modinfo
 
 
-
     def addInfoIssue(self, issue):
         self.modinfo_issues.append(issue)
 
     def addJsonIssue(self, json_file, issues):
+        if len(issues) == 0:
+            return
         if json_file in self.json_issues:
             self.json_issues[json_file] |= set(issues)
         else:
@@ -131,9 +145,16 @@ class Checker:
             ref_set = set([referenced_by])
 
         if file_name in self.file_issues:
-            self.file_issues[file_name] |= set(ref_set)
+            self.file_issues[file_name] |= ref_set
         else:
-            self.file_issues[file_name] = set(ref_set)
+            self.file_issues[file_name] = ref_set
+
+    def getJsonIssueCount(self):
+        return sum(len(x) for x in self.json_issues.values())
+    def getFileIssueCount(self):
+        return len(self.file_issues)
+    def getInfoIssueCount(self):
+        return len(self.modinfo_issues)
 
     def printReport(self):
         report = ""
@@ -145,19 +166,92 @@ class Checker:
         if self.modinfo is not None:
             report += make_heading('MOD DETAILS', '=')
             report += line("      name: " + self.modinfo['display_name'])
-            report += line("        id: " + self.modinfo['identifier'])
+            report += line("identifier: " + self.modinfo['identifier'])
             report += line("    author: " + self.modinfo['author'])
             report += line("     forum: " + self.modinfo['forum'])
             report += line()
 
         # listing issues with the modinfo files
-        report += make_heading('MODINFO ISSUES ' + str(len(self.modinfo_issues)), '-')
+        report += make_heading('MODINFO ISSUES ' + str(self.getInfoIssueCount()), '-')
         for modinfo_issue in self.modinfo_issues:
             report += line(modinfo_issue)
         report += line()
 
+        # missing file issues
+        report += make_heading('MISSING FILES ' + str(self.getFileIssueCount()), '-')
+        for file, refs in self.file_issues.items():
+            report += line('' + file)
+            for ref in refs:
+                report += line('      referenced by ' + ref)
+        report += line()
+
+        # json parsing issues
+        report += make_heading('JSON ISSUES ' + str(self.getJsonIssueCount()), '-')
+        for issues in self.json_issues.values():
+            for json_issue in issues:
+                report += line(json_issue)
+            report += line()
+
+        report += line()
+
 
         return report
+
+    def _find_missing_files(self, loader):
+        visited = set()
+        file_path = '/pa/units/unit_list.json'
+        referenced_by = ''
+
+        self._walk_json(loader, visited, file_path, referenced_by)
+
+
+    def _walk_json(self, loader, visited, file_path, referenced_by):
+        visited.add(file_path)
+
+        resolved_file = loader.resolveFile(file_path)
+        if resolved_file is None:
+            self.addFileIssue(file_path, referenced_by)
+            return
+        if not file_path.endswith('.json') and not file_path.endswith('.pfx'):
+            return
+
+        obj, warnings = loader.loadJson(resolved_file)
+
+        if len(warnings) > 0:
+            self.addJsonIssue(file_path, warnings)
+
+        file_list = _walk_obj(obj)
+        for file in file_list:
+            if file not in visited:
+                self._walk_json(loader, visited, file, file_path)
+
+
+def _parse_spec(spec_path):
+    ret = set()
+    specs = spec_path.split(' ')
+    for spec in specs:
+        if '/' in spec and '.' in spec and spec.find('/') < spec.find('.'):
+            ret.add(spec)
+
+    return ret
+
+
+def _walk_obj(obj):
+    if isinstance(obj, str):
+        return _parse_spec(obj)
+
+    specs = set()
+    if isinstance(obj, dict):
+        obj = list(obj.values())
+
+    if isinstance(obj, list):
+        specs = set()
+        for value in obj:
+            specs |= _walk_obj(value)
+
+    return specs
+
+
 
 def _find_mod_root(mod_path):
     from os.path import join, dirname
@@ -165,7 +259,6 @@ def _find_mod_root(mod_path):
 
     glob_result = glob(join(mod_path, '**','modinfo.json'), recursive=True)
 
-    print(mod_path, glob_result)
     if len(glob_result) == 1:
         return dirname(glob_result[0])
     else:

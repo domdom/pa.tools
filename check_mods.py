@@ -134,8 +134,8 @@ for i, mod in enumerate(api_mods):
 
     from mod.checker import Checker
 
-    checker = Checker()
-    checker.check(mod_path)
+    checker = Checker(mod_path)
+    checker.check()
     print(checker.printReport())
 
 
