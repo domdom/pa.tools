@@ -1,20 +1,16 @@
 MOD DETAILS
 ===========
-      name: High Resolution Commander: Gnugfur
-identifier: com.pa.uber.client.commandertextures2048.imperial_gnugfur
-    author: Uber Entertainment
-     forum: 
+    <failed to load modinfo>
 
-ISSUE SUMMARY 2
+ISSUE SUMMARY 1
 ---------------
-modinfo issues: 2
+modinfo issues: 1
  missing files: 0
    json issues: 0
 
-MODINFO ISSUES 2
+MODINFO ISSUES 1
 ----------------
-ERROR: Mandatory field "forum" is missing.
-WARNING: "category" array contains a redundant entry: Texture. Please use "textures" instead.
+FATAL: Could not find modinfo.json
 
 MISSING FILES 0
 ---------------

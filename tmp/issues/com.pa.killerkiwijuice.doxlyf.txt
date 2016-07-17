@@ -22,14 +22,14 @@ MISSING FILES 4
       referenced by /pa/units/unit_list.json
 /pa/units/land/assault_bot/assault_bot_squisher_ammo.json
       referenced by /pa/units/land/assault_bot_adv/assault_bot_squisher_tool_weapon.json
-/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa
-      referenced by /pa/units/land/artillery_long/artillery_long.json
 /pa/units/land/base_unit/base_unit.json
       referenced by /pa/units/unit_list.json
+/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa
+      referenced by /pa/units/land/artillery_long/artillery_long.json
 
 JSON ISSUES 2
 -------------
-tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/effects/specs/CPlosion.pfx:140:12 warning: ill-formed number
+tmp\mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\effects\specs\CPlosion.pfx:140:12 warning: ill-formed number
  137|		"velocity": 0.1,
  138|		"rotationRange": 1.14,
  139|		"sizeX": 1.6,
@@ -38,7 +38,7 @@ tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice
  141|		"lifetime": 3.0,
 
 
-tmp/mods/com.pa.killerkiwijuice.doxlyf/Dox4Lyf-Mod-master/com.pa.killerkiwijuice.doxlyf/pa/units/land/bot_factory/bot_factory.json:226:1 error: expected 'EOF' but got '}' instead
+tmp\mods\com.pa.killerkiwijuice.doxlyf\Dox4Lyf-Mod-master\com.pa.killerkiwijuice.doxlyf\pa\units\land\bot_factory\bot_factory.json:226:1 error: expected 'EOF' but got '}' instead
  223|    "collision_layers":"WL_AnyHorizontalGroundOrWaterSurface"
  224|  }
  225|}

@@ -27,7 +27,7 @@ metal/s.
 
 JSON ISSUES 1
 -------------
-tmp/mods/com.pa.burntcustard.bBoomBotWars/bBoomBotWars-1.6/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json:337:1 error: expected 'EOF' but got '}' instead
+tmp\mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\vehicle_factory_adv\vehicle_factory_adv.json:337:1 error: expected 'EOF' but got '}' instead
  334|    "collision_layers":"WL_AnyHorizontalGroundOrWaterSurface"
  335|  }
  336|}
