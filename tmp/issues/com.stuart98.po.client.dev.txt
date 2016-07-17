@@ -1,0 +1,24 @@
+MOD DETAILS
+===========
+      name: Planetary Obliteration: Client Component
+identifier: com.stuart98.po.client.dev
+    author: Stuart98
+     forum: 
+
+ISSUE SUMMARY 1
+---------------
+modinfo issues: 1
+ missing files: 0
+   json issues: 0
+
+MODINFO ISSUES 1
+----------------
+ERROR: Mandatory field "forum" is missing.
+
+MISSING FILES 0
+---------------
+
+JSON ISSUES 0
+-------------
+
+

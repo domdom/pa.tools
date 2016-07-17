@@ -57,86 +57,28 @@ def _download_mods(api_mods):
             print('Failed to download', mod_id)
             continue
 
-def _validate_mods(api_mods):
-    if not os.path.exists(temp_issue_dir): os.makedirs(temp_issue_dir)
-
-    print('================== VALIDATING MODS')
-    for i, mod in enumerate(api_mods):
-        mod_id = mod['identifier']
-
-        print(i, '/', len(api_mods), '-', mod_id, end='')
-
-        mod_path = os.path.join(temp_mod_dir, mod_id)
-
-        import glob
-        glob_result = glob.glob(os.path.join(mod_path, '**', 'modinfo.json'), recursive=True)
-
-        if len(glob_result) == 0:
-            print(' - FAIL: Could not find modinfo for')
-            continue
-
-        modinfo_path = glob_result[0]
-        mod_path = os.path.dirname(modinfo_path)
-
-        modIssues = validate_mod_files(mod_path)
-
-        print(' - [', len(modIssues.missing) + len(modIssues.parseErrors), ']')
-
-        file_map = modIssues.missing
-        json_map = modIssues.parseErrors
-
-        # skip if there are no issues
-        if len(file_map) == 0 and len(json_map) == 0:
-            continue
-
-        mod_issue_path = os.path.join(temp_issue_dir, mod_id + '.txt')
-
-        with open(mod_issue_path, 'w') as mod_issue_file:
-            print(mod['display_name'], file=mod_issue_file)
-            print('=' * len(mod['display_name']), file=mod_issue_file)
-            print('missing files:', modIssues.getMissingFileCount(), file=mod_issue_file)
-            print('  json errors:', modIssues.getJsonErrorCount(), file=mod_issue_file)
-
-            print('',file=mod_issue_file)
-
-            print('MISSING FILES ' + str(modIssues.getMissingFileCount()) + ' ', file=mod_issue_file)
-            print('=' * len('MISSING FILES ' + str(modIssues.getMissingFileCount()) + ' '), file=mod_issue_file)
-
-            if len(file_map) > 0:
-                for file, refs in file_map.items():
-                    print(file, '   not found, referenced by:', file=mod_issue_file)
-                    for ref in refs:
-                        print('      - ', ref, file=mod_issue_file)
-
-            print('',file=mod_issue_file)
-            
-            print('JSON ERRORS ' + str(modIssues.getJsonErrorCount()) + ' ', file=mod_issue_file)
-            print('=' * len('JSON ERRORS ' + str(modIssues.getJsonErrorCount()) + ' '), file=mod_issue_file)
-            if len(json_map) > 0:
-                for file, errors in json_map.items():
-                    for error in errors:
-                        print(error, file=mod_issue_file)
-
-    print('------------------ DONE')
-
-
 # _download_mods(api_mods)
 # _validate_mods(api_mods)
 
 # api_mods = [{'identifier':'com.pa.domdom.laser_unit_effects'}]
 api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
 
+if not os.path.exists(temp_issue_dir): os.makedirs(temp_issue_dir)
 for i, mod in enumerate(api_mods):
     mod_id = mod['identifier']
-    if 'domdom' not in mod_id: continue
 
     mod_path = os.path.join(temp_mod_dir, mod_id)
+    mod_issue_path = os.path.join(temp_issue_dir, mod_id + '.txt')
 
-    from mod.checker import Checker
+    from mod.checker import check_mod
 
-    checker = Checker(mod_path)
-    checker.check()
-    print(checker.printReport())
+    mod_report = check_mod(mod_path)
+
+    print(i, '/', len(api_mods), '-', mod_id, ' - [' + str(mod_report.getIssueCount()) + ']')
+
+    with open(mod_issue_path, 'w') as mod_issue_file:
+        if mod_report.getIssueCount() > 0:
+            print(mod_report.printReport(), file=mod_issue_file)
 
 
 

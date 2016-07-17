@@ -1,4 +1,4 @@
-class Checker:
+class ModReport:
     def __init__(self, mod_path):
         self.mod_path = mod_path
         self.mod_root = mod_path
@@ -6,125 +6,6 @@ class Checker:
         self.modinfo_issues = []
         self.file_issues = {}
         self.json_issues = {}
-
-    def check(self):
-        from .load import Loader
-        from os.path import join, dirname
-
-        self.mod_root = _find_mod_root(self.mod_path)
-        if self.mod_root is None:
-            self.addInfoIssue('FATAL: Could not find modinfo.json')
-            return
-
-        loader = Loader(self.mod_root)
-
-        modinfo_path = loader.resolveFile('/modinfo.json')
-        if modinfo_path is None:
-            self.addInfoIssue('FATAL: Could not find modinfo.json')
-            return
-
-        self.checkModinfo(modinfo_path, loader)
-        if self.modinfo is None:
-            return
-
-        # construct loader for checking files
-        from .paths import PA_MEDIA_DIR
-
-        loader = Loader(PA_MEDIA_DIR)
-        loader.mount('/pa', '/pa_ex1')
-        loader.mount('/', self.mod_root)
-
-        self._find_missing_files(loader)
-
-
-    def checkModinfo(self, modinfo_path, loader):
-        modinfo, warnings = loader.loadJson(modinfo_path)
-        self.addJsonIssue(modinfo_path, warnings)
-
-        mandatory_fields = [
-            'author',
-            'build',
-            'category',
-            'context',
-            'date',
-            'description',
-            'display_name',
-            'forum',
-            'identifier',
-            'signature',
-            'version'
-        ]
-
-        if modinfo is None:
-            self.addInfoIssue('FATAL: Could not parse modinfo.json')
-            return
-
-        new_modinfo = {}
-        for key, value in modinfo.items():
-            new_modinfo[key.lower()] = value
-        modinfo = new_modinfo
-
-
-        for field in mandatory_fields:
-            field_value = modinfo.get(field, None)
-
-            if field_value == '':
-                self.addInfoIssue('ERROR: Mandatory field "'+field+'" is empty.')
-            if field_value is None:
-                self.addInfoIssue('ERROR: Mandatory field "'+field+'" is missing.')
-
-            modinfo[field] = field_value
-
-
-        # build - string - mandatory, build number
-        category = modinfo.get('category', None)
-        if category == []:
-            self.addInfoIssue('WARNING: "category" field is empty. Use category keywords to make your mod easier to search for.')
-        elif isinstance(category, list):
-            redundant_keywords = set(['mod', 'client', 'client-mod', 'server', 'server-mod'])
-            prefered_keyword_mapping = {
-                'map': 'maps',
-                'planet': 'maps',
-                'planets': 'maps',
-                'system': 'maps',
-                'systems': 'maps',
-
-                'texture':'textures',
-                'unit': 'units',
-                'buildings':'units',
-                'particle': 'effects',
-                'effect': 'effects',
-                'live-game': 'gameplay',
-                'in-game': 'gameplay',
-                'strategic-icons': 'icons',
-                'strategic icons': 'icons',
-                'icon': 'icons',
-
-                'bug-fix': 'fix',
-                'bugfix': 'fix',
-                'hot-fix': 'fix',
-                'hotfix': 'fix'
-            }
-            for item in category:
-                if not isinstance(item, str):
-                    self.addInfoIssue('ERROR: "category" array contains a non-string element: ' + str(item))
-                else:
-                    if item.lower() in redundant_keywords:
-                        self.addInfoIssue('WARNING: "category" array contains a redundant entry: '+ item +'. Please remove this entry.')
-                    if item.lower() in prefered_keyword_mapping:
-                        self.addInfoIssue('WARNING: "category" array contains a redundant entry: '+ item +'. Please use "' + prefered_keyword_mapping[item.lower()] + '" instead.')
-        elif category is not None:
-            self.addInfoIssue('ERROR: "category" field must be an array of strings.')
-
-        
-        # context - string - mandatory, server or client
-        context = modinfo.get('context', None)
-        if context not in ['client', 'server']:
-            self.addInfoIssue('ERROR: "context" is must be either "client", or "server".')
-
-
-        # store reference to the modinfo
-        self.modinfo = modinfo
 
 
     def addInfoIssue(self, issue):
@@ -149,6 +30,8 @@ class Checker:
         else:
             self.file_issues[file_name] = ref_set
 
+    def getIssueCount(self):
+        return self.getJsonIssueCount() + self.getFileIssueCount() + self.getInfoIssueCount()
     def getJsonIssueCount(self):
         return sum(len(x) for x in self.json_issues.values())
     def getFileIssueCount(self):
@@ -157,19 +40,29 @@ class Checker:
         return len(self.modinfo_issues)
 
     def printReport(self):
-        report = ""
+        report = ''
 
-        def make_heading(heading, underline_character): return heading + "\n" + underline_character * len(heading) + "\n"
-        def line(string=''): return string + "\n"
+        def make_heading(heading, underline_character): return heading + '\n' + underline_character * len(heading) + '\n'
+        def line(string=''): return string + '\n'
 
         # basic details about the mod
+        report += make_heading('MOD DETAILS', '=')
         if self.modinfo is not None:
-            report += make_heading('MOD DETAILS', '=')
-            report += line("      name: " + self.modinfo['display_name'])
-            report += line("identifier: " + self.modinfo['identifier'])
-            report += line("    author: " + self.modinfo['author'])
-            report += line("     forum: " + self.modinfo['forum'])
-            report += line()
+            report += line('      name: ' + self.modinfo['display_name'])
+            report += line('identifier: ' + self.modinfo['identifier'])
+            report += line('    author: ' + self.modinfo['author'])
+            report += line('     forum: ' + self.modinfo['forum'])
+        else:
+            report += line('    <failed to load modinfo>')
+        report += line()
+
+
+        # summary
+        report += make_heading('ISSUE SUMMARY ' + str(self.getIssueCount()), '-')
+        report += line('modinfo issues: ' + str(self.getInfoIssueCount()))
+        report += line(' missing files: ' + str(self.getFileIssueCount()))
+        report += line('   json issues: ' + str(self.getJsonIssueCount()))
+        report += line()
 
         # listing issues with the modinfo files
         report += make_heading('MODINFO ISSUES ' + str(self.getInfoIssueCount()), '-')
@@ -197,33 +90,158 @@ class Checker:
 
         return report
 
-    def _find_missing_files(self, loader):
-        visited = set()
-        file_path = '/pa/units/unit_list.json'
-        referenced_by = ''
 
-        self._walk_json(loader, visited, file_path, referenced_by)
+def _find_missing_files(mod_report, loader):
+    visited = set()
+    file_path = '/pa/units/unit_list.json'
+    referenced_by = ''
+
+    _walk_json(mod_report, loader, visited, file_path, referenced_by)
 
 
-    def _walk_json(self, loader, visited, file_path, referenced_by):
-        visited.add(file_path)
+def _walk_json(mod_report, loader, visited, file_path, referenced_by):
+    visited.add(file_path)
 
-        resolved_file = loader.resolveFile(file_path)
-        if resolved_file is None:
-            self.addFileIssue(file_path, referenced_by)
-            return
-        if not file_path.endswith('.json') and not file_path.endswith('.pfx'):
-            return
+    resolved_file = loader.resolveFile(file_path)
+    if resolved_file is None:
+        mod_report.addFileIssue(file_path, referenced_by)
+        return
+    if not file_path.endswith('.json') and not file_path.endswith('.pfx'):
+        return
 
-        obj, warnings = loader.loadJson(resolved_file)
+    obj, warnings = loader.loadJson(resolved_file)
 
-        if len(warnings) > 0:
-            self.addJsonIssue(file_path, warnings)
+    if len(warnings) > 0:
+        mod_report.addJsonIssue(file_path, warnings)
 
-        file_list = _walk_obj(obj)
-        for file in file_list:
-            if file not in visited:
-                self._walk_json(loader, visited, file, file_path)
+    file_list = _walk_obj(obj)
+    for file in file_list:
+        if file not in visited:
+            _walk_json(mod_report, loader, visited, file, file_path)
+
+def check_mod(mod_path):
+    from .load import Loader
+    from os.path import join, dirname
+
+    mod_report = ModReport(mod_path)
+
+    mod_report.mod_root = _find_mod_root(mod_report.mod_path)
+    if mod_report.mod_root is None:
+        mod_report.addInfoIssue('FATAL: Could not find modinfo.json')
+        return mod_report
+
+    loader = Loader(mod_report.mod_root)
+
+    modinfo_path = loader.resolveFile('/modinfo.json')
+    if modinfo_path is None:
+        mod_report.addInfoIssue('FATAL: Could not find modinfo.json')
+        return mod_report
+
+    check_modinfo(mod_report, modinfo_path, loader)
+    if mod_report.modinfo is None:
+        return mod_report
+
+    # construct loader for checking files
+    from .paths import PA_MEDIA_DIR
+
+    loader = Loader(PA_MEDIA_DIR)
+    loader.mount('/pa', '/pa_ex1')
+    loader.mount('/', mod_report.mod_root)
+
+    _find_missing_files(mod_report, loader)
+
+    return mod_report
+
+
+def check_modinfo(mod_report, modinfo_path, loader):
+    modinfo, warnings = loader.loadJson(modinfo_path)
+    mod_report.addJsonIssue(modinfo_path, warnings)
+
+    mandatory_fields = [
+        'author',
+        'build',
+        'category',
+        'context',
+        'date',
+        'description',
+        'display_name',
+        'forum',
+        'identifier',
+        'signature',
+        'version'
+    ]
+
+    if modinfo is None:
+        mod_report.addInfoIssue('FATAL: Could not parse modinfo.json')
+        return
+
+    new_modinfo = {}
+    for key, value in modinfo.items():
+        new_modinfo[key.lower()] = value
+    modinfo = new_modinfo
+
+
+    for field in mandatory_fields:
+        field_value = modinfo.get(field, None)
+
+        if field_value == '':
+            mod_report.addInfoIssue('ERROR: Mandatory field "'+field+'" is empty.')
+        if field_value is None:
+            field_value = ''
+            mod_report.addInfoIssue('ERROR: Mandatory field "'+field+'" is missing.')
+
+        modinfo[field] = field_value
+
+
+    # build - string - mandatory, build number
+    category = modinfo.get('category', None)
+    if category == []:
+        mod_report.addInfoIssue('WARNING: "category" field is empty. Use category keywords to make your mod easier to search for.')
+    elif isinstance(category, list):
+        redundant_keywords = set(['mod', 'client', 'client-mod', 'server', 'server-mod'])
+        prefered_keyword_mapping = {
+            'map': 'maps',
+            'planet': 'maps',
+            'planets': 'maps',
+            'system': 'maps',
+            'systems': 'maps',
+
+            'texture':'textures',
+            'unit': 'units',
+            'buildings':'units',
+            'particle': 'effects',
+            'effect': 'effects',
+            'live-game': 'gameplay',
+            'in-game': 'gameplay',
+            'strategic-icons': 'icons',
+            'strategic icons': 'icons',
+            'icon': 'icons',
+
+            'bug-fix': 'fix',
+            'bugfix': 'fix',
+            'hot-fix': 'fix',
+            'hotfix': 'fix'
+        }
+        for item in category:
+            if not isinstance(item, str):
+                mod_report.addInfoIssue('ERROR: "category" array contains a non-string element: ' + str(item))
+            else:
+                if item.lower() in redundant_keywords:
+                    mod_report.addInfoIssue('WARNING: "category" array contains a redundant entry: '+ item +'. Please remove this entry.')
+                if item.lower() in prefered_keyword_mapping:
+                    mod_report.addInfoIssue('WARNING: "category" array contains a redundant entry: '+ item +'. Please use "' + prefered_keyword_mapping[item.lower()] + '" instead.')
+    elif category is not None:
+        mod_report.addInfoIssue('ERROR: "category" field must be an array of strings.')
+
+    
+    # context - string - mandatory, server or client
+    context = modinfo.get('context', None)
+    if context not in ['client', 'server']:
+        mod_report.addInfoIssue('ERROR: "context" is must be either "client", or "server".')
+
+
+    # store reference to the modinfo
+    mod_report.modinfo = modinfo
 
 
 def _parse_spec(spec_path):
@@ -263,8 +281,6 @@ def _find_mod_root(mod_path):
         return dirname(glob_result[0])
     else:
         return None
-
-
 
 
 

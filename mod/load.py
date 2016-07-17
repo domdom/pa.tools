@@ -1,4 +1,5 @@
 import json
+from json import JSONDecodeError
 from . import pajson
 
 from os.path import join, isfile, normpath
@@ -51,7 +52,7 @@ class Loader:
     # loads Json of the given path
     def loadJson(self, file_path):
         if isfile(file_path):
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 try:
                     return json.load(file), []
                 except json.JSONDecodeError:
