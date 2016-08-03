@@ -76,9 +76,12 @@ for i, mod in enumerate(api_mods):
 
     print(i, '/', len(api_mods), '-', mod_id, ' - [' + str(mod_report.getIssueCount()) + ']')
 
-    with open(mod_issue_path, 'w') as mod_issue_file:
-        if mod_report.getIssueCount() > 0:
+    if mod_report.getIssueCount() > 0:
+        with open(mod_issue_path, 'w') as mod_issue_file:
             print(mod_report.printReport(), file=mod_issue_file)
+    else:
+        if os.path.exists(mod_issue_path):
+            os.remove(mod_issue_path)
 
 
 

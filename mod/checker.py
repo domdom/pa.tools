@@ -1,11 +1,13 @@
+from collections import OrderedDict
+
 class ModReport:
     def __init__(self, mod_path):
         self.mod_path = mod_path
         self.mod_root = mod_path
         self.modinfo = None
         self.modinfo_issues = []
-        self.file_issues = {}
-        self.json_issues = {}
+        self.file_issues = OrderedDict()
+        self.json_issues = OrderedDict()
 
 
     def addInfoIssue(self, issue):
