@@ -20,9 +20,9 @@ MISSING FILES 3
 ---------------
 /pa/units/land/base_unit/base_unit.json
       referenced by /pa/units/unit_list.json
-/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa
-      referenced by /pa/units/land/artillery_long/artillery_long.json
 metal/s.
+      referenced by /pa/units/land/artillery_long/artillery_long.json
+/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa
       referenced by /pa/units/land/artillery_long/artillery_long.json
 
 JSON ISSUES 1
