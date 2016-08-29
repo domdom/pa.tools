@@ -28,6 +28,26 @@ class Loader:
                 self.mounts.remove((mnt, path))
                 return
 
+    def resolveGlob(self, path):
+        from glob import glob
+
+        for i in range(len(self.mounts)):
+            mounts = self.mounts[-i:]
+
+            file_path = path
+            for mount_point, mount_path in mounts:
+                if file_path.startswith(mount_point):
+                    file_path = _join(mount_path, file_path[len(mount_point):])
+                # if we are mounting the root, we should not propogate further
+                if mount_point == '/':
+                    break
+
+            paths = glob(file_path, recursive=True)
+            if paths:
+                return map(paths,normpath)
+
+        return None
+
     def resolveFile(self, path):
         for i in range(len(self.mounts)):
             mounts = self.mounts[-i:]

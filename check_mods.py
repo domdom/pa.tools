@@ -1,8 +1,6 @@
 import os
 import os.path
 
-from mod.validate import validate_mod_files
-
 from urllib.request import urlopen
 import json
 
