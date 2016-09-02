@@ -3,9 +3,6 @@ import os.path
 import re
 import glob
 
-# get unit list (perfer local, then mod version)
-# crawl unit list for all used files
-
 """
 Finds and returns the location of PA's user data folder
 """
