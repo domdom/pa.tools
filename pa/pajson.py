@@ -312,7 +312,7 @@ def pretty_print():
 ##### Parse file instead of string #############################################
 def load(f):
     try:
-        return json.load(f), []
+        return json.load(f, object_pairs_hook=collections.OrderedDict), []
     except json.JSONDecodeError:
         f.seek(0)
         return loads(f.read(), f.name)
