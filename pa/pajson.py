@@ -311,8 +311,15 @@ def pretty_print():
 
 ##### Parse file instead of string #############################################
 def load(f):
-    return loads(f.read(), f.name)
+    try:
+        return json.load(f), []
+    except json.JSONDecodeError:
+        f.seek(0)
+        return loads(f.read(), f.name)
 ###############################################################################
+
+dump = json.dump
+dumps = json.dumps
 
 # import sys
 # import loader
