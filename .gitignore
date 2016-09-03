@@ -1,3 +1,4 @@
 tmp/mods
 .idea
 __pycache__
+*.pyc
