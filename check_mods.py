@@ -55,11 +55,12 @@ def _download_mods(api_mods):
             print('Failed to download', mod_id)
             continue
 
-# _download_mods(api_mods)
+api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
+
+_download_mods(api_mods)
 # _validate_mods(api_mods)
 
 # api_mods = [{'identifier':'com.pa.domdom.laser_unit_effects'}]
-api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
 
 if not os.path.exists(temp_issue_dir): os.makedirs(temp_issue_dir)
 for i, mod in enumerate(api_mods):

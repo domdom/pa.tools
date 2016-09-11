@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from pa import pajson
 
 class ModReport:
     def __init__(self, mod_path):
@@ -111,7 +112,8 @@ def _walk_json(mod_report, loader, visited, file_path, referenced_by):
     if not file_path.endswith('.json') and not file_path.endswith('.pfx'):
         return
 
-    obj, warnings = loader.loadJson(resolved_file)
+    with open(resolved_file, 'r', encoding='utf-8') as file:
+       obj, warnings = pajson.load(file)
 
     if len(warnings) > 0:
         mod_report.addJsonIssue(file_path, warnings)
@@ -122,7 +124,7 @@ def _walk_json(mod_report, loader, visited, file_path, referenced_by):
             _walk_json(mod_report, loader, visited, file, file_path)
 
 def check_mod(mod_path):
-    from .load import Loader
+    from pa.load import Loader
     from os.path import join, dirname
 
     mod_report = ModReport(mod_path)
@@ -144,7 +146,7 @@ def check_mod(mod_path):
         return mod_report
 
     # construct loader for checking files
-    from .paths import PA_MEDIA_DIR
+    from pa.paths import PA_MEDIA_DIR
 
     loader = Loader(PA_MEDIA_DIR)
     loader.mount('/pa', '/pa_ex1')
@@ -154,9 +156,9 @@ def check_mod(mod_path):
 
     return mod_report
 
-
 def check_modinfo(mod_report, modinfo_path, loader):
-    modinfo, warnings = loader.loadJson(modinfo_path)
+    with open(modinfo_path, 'r', encoding='utf-8') as file:
+       modinfo, warnings = pajson.load(file)
     mod_report.addJsonIssue(modinfo_path, warnings)
 
     mandatory_fields = [

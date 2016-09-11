@@ -20,14 +20,14 @@ MISSING FILES 3
 ---------------
 /pa/units/land/base_unit/base_unit.json
       referenced by /pa/units/unit_list.json
-metal/s.
-      referenced by /pa/units/land/artillery_long/artillery_long.json
 /pa/units/land/artillery_long/artillery_long_anim_aimUp.papa
+      referenced by /pa/units/land/artillery_long/artillery_long.json
+metal/s.
       referenced by /pa/units/land/artillery_long/artillery_long.json
 
 JSON ISSUES 1
 -------------
-tmp\mods\com.pa.burntcustard.bBoomBotWars\bBoomBotWars-1.6\pa\units\land\vehicle_factory_adv\vehicle_factory_adv.json:337:1 error: expected 'EOF' but got '}' instead
+tmp/mods/com.pa.burntcustard.bBoomBotWars/bBoomBotWars-1.6/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json:337:1 error: expected 'EOF' but got '}' instead
  334|    "collision_layers":"WL_AnyHorizontalGroundOrWaterSurface"
  335|  }
  336|}
