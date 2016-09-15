@@ -8,6 +8,9 @@ class Dict(dict):
         for arg in args:
             if not arg:
                 continue
+            elif isinstance(arg, Dict):
+                for key, val in arg.to_dict().items():
+                    self[key] = self._hook(val)
             elif isinstance(arg, dict):
                 for key, val in arg.items():
                     self[key] = self._hook(val)

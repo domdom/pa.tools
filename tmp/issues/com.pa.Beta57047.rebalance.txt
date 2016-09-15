@@ -27,12 +27,12 @@ MISSING FILES 7
       referenced by /pa/units/unit_list.json
 /pa/units/sea/sonar/sonar.json
       referenced by /pa/units/unit_list.json
-/pa/units/sea/sea_scout/sea_scout_anim_idle.papa
-      referenced by /pa/units/sea/sea_scout/sea_scout.json
 /pa/units/sea/sonar_adv/sonar_adv.json
       referenced by /pa/units/unit_list.json
 /pa/units/air/fighter_adv/fighter_adv_anim_landed.papa
       referenced by /pa/units/air/fighter_adv/fighter_adv.json
+/pa/units/sea/sea_scout/sea_scout_anim_idle.papa
+      referenced by /pa/units/sea/sea_scout/sea_scout.json
 
 JSON ISSUES 0
 -------------

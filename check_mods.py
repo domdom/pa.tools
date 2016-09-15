@@ -3,6 +3,7 @@ import os.path
 
 from urllib.request import urlopen
 import json
+from pa import pajson
 
 temp_mod_dir = './tmp/mods'
 temp_issue_dir = './tmp/issues'
@@ -37,6 +38,7 @@ def _download_mods(api_mods):
     for i, mod in enumerate(api_mods):
         mod_id = mod['identifier']
         mod_url = mod['url']
+        mod_version = mod['version']
 
         print(i, '/', len(api_mods), '-', mod_id)
 
@@ -44,7 +46,26 @@ def _download_mods(api_mods):
 
         #############
         try:
-            if not os.path.exists(mod_path):
+            should_download_mod = False
+            if os.path.exists(mod_path):
+                from os.path import join, dirname
+                from glob import glob
+
+                glob_result = glob(join(mod_path, '**','modinfo.json'), recursive=True)
+
+                if len(glob_result) == 1:
+                    modinfo_path = glob_result[0]
+                    with open(modinfo_path, 'r', encoding='utf-8') as modinfo_file:
+                        modinfo, warnings = pajson.load(modinfo_file)
+                        if modinfo['version'] != mod_version:
+                            print (modinfo['version'], mod_version)
+                            should_download_mod = True
+            else:
+                should_download_mod = True
+
+            if should_download_mod:
+                import shutil
+                shutil.rmtree(mod_path, ignore_errors=True)
                 print('Downloading', mod_id, ':', mod_url)
                 with urlopen(mod_url) as zipresp:
                     with ZipFile(BytesIO(zipresp.read())) as zfile:
@@ -55,11 +76,11 @@ def _download_mods(api_mods):
             print('Failed to download', mod_id)
             continue
 
-# _download_mods(api_mods)
+api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
+_download_mods(api_mods)
 # _validate_mods(api_mods)
 
 # api_mods = [{'identifier':'com.pa.domdom.laser_unit_effects'}]
-api_mods = json.loads(urlopen(url).read().decode('UTF-8'))
 
 if not os.path.exists(temp_issue_dir): os.makedirs(temp_issue_dir)
 for i, mod in enumerate(api_mods):
