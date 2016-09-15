@@ -2,13 +2,14 @@ import json
 from json import JSONDecodeError
 from . import pajson
 
-from os.path import join, isfile, normpath
+from os.path import isfile, normpath
+import posixpath
 
 
 def _join(path1, path2):
     if path1 is None or path2 is None:
         return None
-    return join(path1, path2.strip("/"))
+    return posixpath.join(path1, path2.strip("/"))
 
 class Loader:
     def __init__(self, rootPath):
@@ -25,7 +26,7 @@ class Loader:
 
     def resolveFile(self, path):
         for i in range(len(self.mounts)):
-            mounts = self.mounts[-i:]
+            mounts = self.mounts[i:]
 
             file_path = path
             for mount_point, mount_path in mounts:
@@ -36,7 +37,7 @@ class Loader:
                     break
 
             if isfile(file_path):
-                return normpath(file_path)
+                return posixpath.normpath(file_path)
 
         return None
 
