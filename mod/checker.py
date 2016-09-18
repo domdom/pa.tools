@@ -94,7 +94,7 @@ class ModReport:
         return report
 
 
-def _find_missing_files(mod_report, loader):
+def find_missing_files(mod_report, loader):
     visited = set()
     file_path = '/pa/units/unit_list.json'
     referenced_by = ''
@@ -152,7 +152,7 @@ def check_mod(mod_path):
     loader.mount('/pa', '/pa_ex1')
     loader.mount('/', mod_report.mod_root)
 
-    _find_missing_files(mod_report, loader)
+    find_missing_files(mod_report, loader)
 
     return mod_report
 
@@ -272,7 +272,6 @@ def _walk_obj(obj):
             specs |= _walk_obj(value)
 
     return specs
-
 
 
 def _find_mod_root(mod_path):
