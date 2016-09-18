@@ -1,5 +1,7 @@
 from collections import OrderedDict
-from pa import pajson
+from pa_tools.pa import pajson
+
+from posixpath import normpath
 
 class ModReport:
     def __init__(self, mod_path):
@@ -42,57 +44,67 @@ class ModReport:
     def getInfoIssueCount(self):
         return len(self.modinfo_issues)
 
-    def printReport(self):
-        report = ''
-
-        def make_heading(heading, underline_character): return heading + '\n' + underline_character * len(heading) + '\n'
-        def line(string=''): return string + '\n'
-
-        # basic details about the mod
-        report += make_heading('MOD DETAILS', '=')
+    def printDetailsReport(self):
+        report = _make_heading('MOD DETAILS', '=')
         if self.modinfo is not None:
-            report += line('      name: ' + self.modinfo['display_name'])
-            report += line('identifier: ' + self.modinfo['identifier'])
-            report += line('    author: ' + self.modinfo['author'])
-            report += line('     forum: ' + self.modinfo['forum'])
+            report += _line('      name: ' + self.modinfo['display_name'])
+            report += _line('identifier: ' + self.modinfo['identifier'])
+            report += _line('    author: ' + self.modinfo['author'])
+            report += _line('     forum: ' + self.modinfo['forum'])
         else:
-            report += line('    <failed to load modinfo>')
-        report += line()
+            report += _line('    <failed to load modinfo>')
+        report += _line()
+        return report
 
-
-        # summary
-        report += make_heading('ISSUE SUMMARY ' + str(self.getIssueCount()), '-')
-        report += line('modinfo issues: ' + str(self.getInfoIssueCount()))
-        report += line(' missing files: ' + str(self.getFileIssueCount()))
-        report += line('   json issues: ' + str(self.getJsonIssueCount()))
-        report += line()
-
-        # listing issues with the modinfo files
-        report += make_heading('MODINFO ISSUES ' + str(self.getInfoIssueCount()), '-')
-        for modinfo_issue in self.modinfo_issues:
-            report += line(modinfo_issue)
-        report += line()
-
+    def printFileIssueReport(self):
         # missing file issues
-        report += make_heading('MISSING FILES ' + str(self.getFileIssueCount()), '-')
+        report = _make_heading('MISSING FILES ' + str(self.getFileIssueCount()), '-')
         for file, refs in self.file_issues.items():
-            report += line('' + file)
+            report += _line('' + file)
             for ref in refs:
-                report += line('      referenced by ' + ref)
-        report += line()
+                report += _line('      referenced by ' + normpath(ref))
+        report += _line()
+        return report
 
+    def printJsonIssueReport(self):
         # json parsing issues
-        report += make_heading('JSON ISSUES ' + str(self.getJsonIssueCount()), '-')
+        report = _make_heading('JSON ISSUES ' + str(self.getJsonIssueCount()), '-')
         for issues in self.json_issues.values():
             for json_issue in issues:
-                report += line(json_issue)
-            report += line()
+                report += _line(json_issue)
+            report += _line()
 
-        report += line()
+        report += _line()
+        return report
 
+    def printInfoIssueReport(self):
+        # listing issues with the modinfo files
+        report = _make_heading('MODINFO ISSUES ' + str(self.getInfoIssueCount()), '-')
+        for modinfo_issue in self.modinfo_issues:
+            report += _line(modinfo_issue)
+        report += _line()
+        return report
+
+    def printReport(self):
+        report = ''
+        # basic details about the mod
+        report += self.printDetailsReport()
+
+        # summary
+        report += _make_heading('ISSUE SUMMARY ' + str(self.getIssueCount()), '-')
+        report += _line('modinfo issues: ' + str(self.getInfoIssueCount()))
+        report += _line(' missing files: ' + str(self.getFileIssueCount()))
+        report += _line('   json issues: ' + str(self.getJsonIssueCount()))
+        report += _line()
+
+        report += self.printInfoIssueReport()
+        report += self.printFileIssueReport()
+        report += self.printJsonIssueReport()
 
         return report
 
+def _make_heading(heading, underline_character): return heading + '\n' + underline_character * len(heading) + '\n'
+def _line(string=''): return string + '\n'
 
 def find_missing_files(mod_report, loader):
     visited = set()
@@ -109,6 +121,7 @@ def _walk_json(mod_report, loader, visited, file_path, referenced_by):
     if resolved_file is None:
         mod_report.addFileIssue(file_path, referenced_by)
         return
+
     if not file_path.endswith('.json') and not file_path.endswith('.pfx'):
         return
 
@@ -121,7 +134,7 @@ def _walk_json(mod_report, loader, visited, file_path, referenced_by):
     file_list = _walk_obj(obj)
     for file in file_list:
         if file not in visited:
-            _walk_json(mod_report, loader, visited, file, file_path)
+            _walk_json(mod_report, loader, visited, file, resolved_file)
 
 def check_mod(mod_path):
     from pa.load import Loader
