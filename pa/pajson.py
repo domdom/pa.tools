@@ -37,7 +37,9 @@ def _error_near(tokens, index, type, message):
         if i > len(_file_lines): break
         if i < 0: continue
 
-        preview += line_format.format(str(i), _colored_file_lines[i - 1])
+        if i != 0:
+            preview += line_format.format(str(i), _colored_file_lines[i - 1])
+
         if i == tok.line:
             preview += line_format.format('', re.sub(r'\S', ' ', _file_lines[tok.line - 1][0:tok.column-1]) + bcolors.WHITE + '^' + bcolors.ENDC + bcolors.LIGHT_GRAY +(tok.length - 1) * '~' + ' ' + message + bcolors.ENDC)
 
@@ -308,6 +310,10 @@ def loads(file_string, file_source=''):
 
 def pretty_print():
     print ('\n'.join(_colored_file_lines))
+
+def loadf(filename):
+    with open(filename,'r',encoding='utf8') as f:
+        return load(f)
 
 ##### Parse file instead of string #############################################
 def load(f):
