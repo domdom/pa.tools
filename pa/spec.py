@@ -31,7 +31,7 @@ def prune_spec(spec, base_spec):
 def parse_spec(loader, file_path):
     # do cache lookup first
     if file_path in _cache:
-        return _cache[file_path]
+        return copy.deepcopy(_cache[file_path])
 
     resolved_file_path = loader.resolveFile(file_path)
 
@@ -47,6 +47,15 @@ def parse_spec(loader, file_path):
 
     _cache[file_path] = spec
     return copy.deepcopy(spec)
+
+def load_spec(loader, file_path):
+    resolved_file_path = loader.resolveFile(file_path)
+    if resolved_file_path is None:
+        loader.resolveFile(file_path, True)
+
+    spec, warnings = pajson.loadf(resolved_file_path)
+    list(map(print, warnings))
+    return spec
 
 def clear_cache():
     global _cache
