@@ -2,6 +2,15 @@ from pa_tools.pa import pajson
 
 import copy
 
+def _has_key_sequence(obj, keys):
+    for key in keys:
+        if key not in obj:
+            return False
+        
+        obj = obj[key]
+    
+    return True
+
 _cache = {}
 def update_spec(spec, base_spec):
     spec = copy.deepcopy(spec)
@@ -27,6 +36,28 @@ def prune_spec(spec, base_spec):
                     del spec[key]
 
     return spec
+
+def find_def(loader, file_path, keys):
+    resolved_file_path = loader.resolveFile(file_path)
+
+    if resolved_file_path == None:
+        return None
+
+
+    spec, warnings = pajson.loadf(resolved_file_path)
+    
+    # If this spec has the key, then we are done
+    if _has_key_sequence(spec, keys):
+        return file_path
+    
+
+    # If not, we have to check the base spec
+    base_spec_id = spec.get('base_spec', None)
+    if base_spec_id:
+        return find_def(loader, base_spec_id, keys)
+
+    return None
+
 
 def parse_spec(loader, file_path):
     # do cache lookup first
